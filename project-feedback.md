@@ -9,8 +9,8 @@ In DSI, students are required to complete **all 5 deliverables** from their Caps
 ##### Assignments You Should Grade + Provide Individual Feedback
 The following assigments contain rubrics you can use to grade and comment on individual student work. See guidelines below.
 
-- Capstone Project Deliverables
-- Weekly Projects
+- Unit Projects
+- Capstone Deliverables
 
 ##### Assignments You Should Collect + Provide Group or Opt-In Feedback
 Collect the following assignments but only provide individual feedback on these if a student has specific questions. Otherwise, we recommend that you review them for completion and trends to address with the class as a whole.
@@ -39,9 +39,9 @@ You can optionally adjust this form to limit the type of assignments they should
 
 - Students should be shown a copy of the blank rubric when given their project assignment.
 - Rubric categories and evaluation metrics should always be tied to the project specifications.
-- Project categories are based off of the course standards, found in the [Data Science Workflow](../../resources/syllabus/DSI-workflow-v1.pdf).
+- Project categories are based off of the course standards, found in the Data Science Workflow
 - Instructors should work with their local team to provide targeted feedback for **every** student. 
-- Students should receive feedback on their projects **within 2 - 4 days** after submission!
+- Students should ideally receive feedback on their projects **within 2 - 4 days** after submission!
 
 ---
 
@@ -49,9 +49,9 @@ You can optionally adjust this form to limit the type of assignments they should
 
 1. Make a copy of the relevant project rubric.
 2. Score project requirements using rubric criteria.
-  - _Note: Half points are ok (1.5) but beyond that, detailed percentages are unnecessary._
-3. Enter any notes for specific project deliverables.
-4. Enter any notes for overall student progress report, if applicable.
+  - _Note: Half points are ok (1.5) but detailed percentages are unnecessary._
+3. Enter notes for specific project deliverables.
+4. Enter notes for overall student progress report, as applicable.
 
 ### Tips for Providing Project Feedback
 
