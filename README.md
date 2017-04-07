@@ -7,47 +7,40 @@ The Capstone project deliverables include objectives, requirements, rubrics, and
 > See the [feedback guidelines](../project-feedback.md) to read more about how we provide feedback to students.
 
 
-### **[Capstone, Part 1: Capstone Topic + Dataset Validation](./part-01/)**
+### **[Capstone, Part 1: Pitch + Problem Statement](./part-01/)**
 
-In Part 1, get started by choosing a topic and problem, describing your goals & criteria for success, potential audience(s), and identifying 1-2 potential datasets. You will present this information in a slide deck, and should be prepared to answer questions and defend your data selection(s). Presentations should take no more than 3-5 minutes.
-
-- **Goal**: Prepare a 3-5 minute lightning talk that covers your potential topic, audience, and dataset.
-- **[Detailed Spec File](./part-01/README.md)**
-
-
-### **[Capstone, Part 2: Problem Statement + EDA](./part-02/)**
-
-For Part 2, provide an overview of your approach to solving your problem with the data you've chosen. Summarize your objectives, goals & success metrics, and any risks & assumptions. Outline your proposed methods and models, perform your initial EDA, and summarize the process. Describe any data munging needed and create a local database for your Dataset(s). Create a data dictionary as needed.
-
-- **Goal**: Describe your proposed approach and summarize your initial EDA. Create a local database and data dictionary as needed.
-- **[Detailed Spec File](./part-02/README.md)**
+Pitch us on potential ideas for a data-driven project. Think of topics you’re passionate about, knowledge you’re familiar with, or problems relevant to to industries you’d like to work with. What questions do you want to answer?
+- **Requirements:** Lightning talk with 2-3 topics, including a problem statement, potential audience, goals, and success metrics, as well as possible data sources for each. Remember, if you can’t find data, you can’t do your project.
+- **Format:** Slide deck
 
 
-### **[Capstone, Part 3: Progress Report + Preliminary Findings](./part-03/)**
+### **[Capstone, Part 2: Dataset + Data Collection](./part-02/)**
 
-In Part 3, you'll create a Progress Report of your work in order to get feedback along the way. Describe your approach, initial results, and any setbacks or lessons learned so far. Your report should include updated visual and statistical analysis of your data. You’ll also meet with your instructional team to get feedback on your results so far!
+Use your newfound skills to source and collect the relevant data for your project. Data acquisition, transformation, and cleaning are typically the most time-consuming parts of data science projects, so don’t procrastinate! 
 
-- **Goal**: Discuss progress and setbacks, include visual and statistical analysis, review with instructor.
-- **[Detailed Spec File](./part-03/README.md)**
-
-
-### **[Capstone, Part 4: Report Writeup + Technical Analysis](./part-04/)**
-
-By now, you're ready to apply your modeling skills to make machine learning predictions. Your goal for Part 4 is to develop a technical document that can be shared among your peers.
-
-Document your research with a summary, explaining your modeling approach as well as the strengths and weaknesses of any variables in the process. You should provide insight into your analysis, using best practices like cross validation or applicable prediction metrics.
-
-Use your model to display correlations, feature importance, and unexplained variance. Look at how your model performs compared to a dummy model, and articulate the benefit gained by using your specific model to solve this problem. Finally, build visualizations that explain outliers and the relationships of your predicted parameter and independent variables.
-
-- **Goal**: Detailed iPython technical notebook with a summary of your statistical analysis, model, and evaluation metrics.
-- **[Detailed Spec File](./part-04/README.md)**
+- **Requirements**: Source and format the data for your project. Perform preliminary data munging and cleaning of the data relevant to your project goals.  Describe your data keeping the intended audience of your final report in mind.
+- **Format:** Table, file, or database with relevant text file or notebook description.
 
 
-### **[Capstone, Part 5: Presentation + Recommendations](./part-05/)**
+### **[Capstone, Part 3: EDA + Preliminary Analysis](./part-03/)**
 
-Whether during an interview or as part of a job, you will frequently have to present your findings to business partners and other interested parties - many of whom won't know anything about data science! That's why for Part 5, you'll create a presentation of your previous findings with a non-technical audience in mind.
+Begin quantitatively describing and visualizing your data. With rich datasets, EDA can go down an endless number of roads. Maintain perspective on your goals and scope your EDA accordingly. Managing your own time is a critical skill in analysis projects.  Keep notes on your approach, results, setbacks, and findings.
 
-You should already have the analytical work complete, so now it's time to clean up and clarify your findings. Come up with a detailed slide deck or interactive demo that explains your data, visualizes your model, describes your approach, articulates strengths and weaknesses, and presents specific recommendations. Be prepared to explain and defend your model to an inquisitive audience!
+- **Requirements**: Perform initial descriptive and visual analysis of your data. Identify outliers, summarize risks and limitations, and describe how your EDA will inform your modeling decisions.
+- **Format:** Jupyter Notebook 
 
-- **Goal**: Detailed presentation deck that relates your data, model, and findings to a non-technical audience.
-- **[Detailed Spec File](./part-05/README.md)**
+
+### **[Capstone, Part 4: Findings + Technical Report](./part-04/)**
+
+Share your technical findings with your fellow data scientists. Explain your goals, describe modeling choices, evaluate model performance, and discuss results. Data science reporting is technical, but don’t forget that you should tell a compelling story about your data.
+
+- **Requirements**: Summarize your goals and metrics for success, variables of interest, and removal of any outliers or data imputation. Your process description should be concise and relevant to your goals. Summarize statistical analysis, including model selection,  implementation, evaluation, and inference. Be convincing – justify all important decisions! Clearly label plots and visualizations. Include an Executive Summary.
+- **Format:** Jupyter Notebook 
+
+
+### **[Capstone, Part 5: Presentation + Non-Technical Summary](./part-05/)**
+
+Take your findings and share a 10 minute presentation that delivers the most important insights from your project to a non-technical audience. Tell us the most interesting story about your data. Break down your process for a novice audience. Make sure to include compelling visuals. Time is short, so be sure to practice and include only the most relevant components of your project.
+
+- **Requirements**: Convey your goals, limits/assumptions, methods and their justification, findings, and conclusions. Define technical terms. Include graphics and visualizations. 
+- **Format:** Interactive graphic presentation, website, or slide deck.
