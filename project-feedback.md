@@ -3,8 +3,12 @@
 
 Our goal is to provide meaningful suggestions and personal guidance to all of our students. While there will undoubtedly be nuances in how everyone evaluates individual student portfolio projects, using these guidelines will ensure that your students get the personalized feedback they deserve.
 
+Specific, timely feedback is critical to student learning. This is a short guide to compiling, structuring, and delivering feedback for your students' projects.
+
+This approach pairs a numeric "grade" (useful for tracking student performance over the course) with qualitative feedback.
+
 ## What to Grade
-In DSI, students are required to complete **all 5 deliverables** from their Capstone Project, as well as **80% of all additional assignments**, including Weekly Projects and any required labs or homework assignments. 
+In DSI, students are required to complete **all 5 deliverables** from their Capstone Project, as well as **80% of all additional assignments**, including Unit Projects and any other required labs or assignments. 
 
 ##### Assignments You Should Grade + Provide Individual Feedback
 The following assigments contain rubrics you can use to grade and comment on individual student work. See guidelines below.
@@ -66,9 +70,9 @@ You can optionally adjust this form to limit the type of assignments they should
 
 ## In-Person Assessment Process
 
-Instructional teams are encouraged to meet with students during office hours or one-on-one to review project feedback and discuss growth opportunities. Students should ideally have up to 30 minutes to review their project evaluation or do a code review up to a week after project submission.
+Instructional teams should meet with students during office hours or one-on-one to review project feedback and discuss growth opportunities. Students should ideally have up to 30 minutes to review their project evaluation or do a code review up to a week after project submission.
 
-### Model / Code Review Tips
+## Model / Code Review Tips
 
 Code review is not troubleshooting time. Instead, the goal is to review code and talk about actionable feedback for enhancing the student's project in the future.
 
