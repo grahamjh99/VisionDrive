@@ -79,7 +79,8 @@ Score | Expectations
 **1** | _Does not meet expectations._
 **2** | _Meets expectations, good job!_
 
-> We used to add an additional integer for "exceeding expectations" but discontinued this as in practice, it set inconsistent standards for students and instructors, and did not necessarily apply to all GA project requirements.
+
+> We used to add an additional integer for "exceeding expectations" but discontinued this - in practice, it set inconsistent standards for students and instructors, and did not necessarily apply to all GA project requirements.
 
 ---
 
