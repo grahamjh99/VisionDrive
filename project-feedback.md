@@ -20,14 +20,14 @@ Below, we'll walk you through:
 ## What to Grade
 In DSI, students are required to complete **all 5 deliverables** from their Capstone Project, **all four of our Unit Projects**,  well as **80% of any additional assignments**. 
 
-#### Mandated Course Completion Requirements
+### Mandated Course Completion Requirements
 - [ ] Capstone Deliverables 1-5
 - [ ] Unit Projects 1-4
 - [ ] 80% of all assigned work
 
 In practice, this 80% requirements means attendance and participation in all daily activities, completion of labs and classwork, and submission of other outcomes-related homework or group assignments. Data has shown that students who complete these assignments perform more favorably in interviews and are generally more prepared for outcomes support, so we strongly recommend that you enforce completion of day to day course activities.
 
-#### Optional Course Requirements 
+### Optional Course Requirements 
 - [ ] Group Projects (i.e. Kaggle) and Weekly Assignments
 - [ ] Blog and Portfolio Development
 - [ ] Labs and Homework
@@ -42,13 +42,13 @@ Daily assignments outside of the core required capstone and unit project deliver
 
 Below are a few high level principles and best practices for providing feedback on student projects at GA:
 
-#### Guiding Principles for Project Feedback
+### Guiding Principles for Project Feedback
 
 - Grading provides structured feedback to students
 - Grading defines clear targets for student performance
 - Grading verifies continued progress and improvement by a student throughout the course
 
-#### Best Practices for Project Feedback 
+### Best Practices for Project Feedback 
 
 - Review project requirments and rubrics with students early on, so that they know how they will be assessed.
 - Focus your project feedback on **required** project components
@@ -70,7 +70,7 @@ Next, we'll walk you through the specific steps necessary to grade a student pro
 > We recommend following a "glow/grow" template, with one item of praise and one suggestion for improvement.
 
 
-#### GA Rubric
+### GA Rubric
 Here at GA, we use a simple 3 point scale. Using the guideline below, assess how well students performed on all required sections on a scale of 0-2, and share those scores in your feedback:
 
 Score | Expectations
@@ -89,7 +89,7 @@ Score | Expectations
 
 Next we'll walk you through some differences in grading unit projects vs capstone projects.
 
-#### Grading Unit Projects
+### Grading Unit Projects
 
 In DSI, unit project questions are assigned a difficulty level, denoted by colored badges: **Required**, **Bonus**, and **Challenge**. Students are told to complete all of the **Required** sections, which they can expect feedback on. 
 
@@ -114,7 +114,7 @@ Score  | Expectations
 **2** | _Meets expectations, good job!_
 
 
-#### Capstone Project Grading
+### Capstone Project Grading
 
 Capstone projects do not include guided prompts; therefore, they do not use the same 3-tiered challenge structure as our unit projects. Instead, capstone projects simply define a core set of requirements and deliverable formats that should inform your evaluation of student work.
 
@@ -155,22 +155,22 @@ For later capstone deliverables or complex projects, instructors may alternative
 
 Instructors should devote specific time to check in with students before and after project submission. 
 
-#### Beforehand
+### Before Project Submission
 
 Many instructors have found the use of a *daily stand* method useful for holding students publicly accountable to incremental progress on projects during the week leading up to a deadline. This is a good chance to briefly discuss student progress, next steps, and blockers.
 
 Instructors may alternatively choose to conduct these check-ins individually during office hours.
 
-#### After Project Submission
+### After Project Submission
 
 Project feedback can be delivered in many ways. For example, instructors can use Github pull requests, Slack, or email to deliver written comments to their students. We recommend that instructors follow up written feedback with "office hours," 15-30 min blocks of time where students can optionally debrief project evaluations in-person. These are suggested for unit projects, and **required** for capstone projects.
 
 Students should use this time to review their project evaluation or walk through a guided code review (e.g. ask them to explain and debug sections of their code, in order to confirm that they understand how it works).
 
 
-#### Tips on Providing Feedback
+### Project Feedback Template
 
-Project feedback is not troubleshooting time. Instead, the goal is to review the student's code and talk about actionable feedback for enhancing the student's project in the future. Below is a sample framework instructors can use to organize in-person discussions:
+In-person project feedback is not troubleshooting time. Instead, the goal is to review the student's code and talk about actionable feedback for enhancing the student's project in the future. Below is a sample framework instructors can use to organize in-person discussions:
 
 - __Student (10 mins)__: Prompt the student walk through and/or defend their project / model / code.
 
@@ -198,7 +198,7 @@ Project feedback is not troubleshooting time. Instead, the goal is to review the
 
 Below are two examples of feedback on a project asking students to do EDA on Billboard Top 100 data. Both follow a "glow/grow" template, with scores based on the project requirements. This feedback can be delivered via Github PR or email (e.g. copy-pasting from a googledocs), and followed up with an in-person 1:1 review as needed.
 
-#### Example 1:
+### Example 1:
 
 - _Excellent work here. You obviously put a lot of care into this project, and it shows that you're on the track to success. You have good articulations of assumptions and hypothesis, and well-written functions to clean the data. (Do be wary of using special names for variables, though, e.g. 'min'.)_
 
@@ -212,7 +212,7 @@ Requirement | Score
 **Total scores (out of 6 possible)** | 4
 
 
-#### Example 2:
+### Example 2:
 
 - _Great work on this. Definitely went down a good path. Your visualizations are excellent, and are sequenced in a clear, logical way; I love the labeling on the stacked barchart of songs in Top 100 / Top 1. However, it looks like you missed identifying some of the risks in the dataset (small sample, limited time period). On the other hand, your comments made it easy to follow your code._
 
