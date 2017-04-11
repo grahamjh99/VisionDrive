@@ -94,9 +94,9 @@ In DSI, unit project questions are assigned a difficulty level, denoted by color
 
 > Bonus and Challenge sections are optional; therefore, students should not expect feedback on those sections. These are intended primarily for differentiation and enrichment, to provide stretch goals for students to push themselves.
 
-In preparing qualitative feedback for students, consider how well students performed in each of these required questions. Your feedback here should be diagnostic and constructive. In other words, review responses for specific gaps in performance and offer concrete suggestions for improvement.
+In preparing qualitative feedback for students, consider how well students performed in each of these required questions. Your feedback here should be *diagnostic* and *constructive*. In other words, review responses for specific gaps in performance and offer concrete suggestions for improvement.
 
-Additionally, each unit project's description includes a "Requirements" rubric, which lists the competencies students are expected to demonstrate in their work. Based on your diagnostic review of their submission, use our rubric to assign a point value to each item in the rubric.
+Additionally, each unit project's description includes a **"Requirements" rubric**, which lists the competencies students are expected to demonstrate in their work. Based on your diagnostic review of their submission, use this rubric to assign a point value for each item.
 
 For example, Unit Project 1 might ask students to demonstrate:
 
