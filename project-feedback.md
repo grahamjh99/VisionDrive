@@ -18,17 +18,22 @@ Below, we'll walk you through:
 
 <a id='what'></a>
 ## What to Grade
-In DSI, students are required to complete **all 5 deliverables** from their Capstone Project, as well as **80% of all additional assignments**, including Unit Projects and any other required labs or assignments. 
+In DSI, students are required to complete **all 5 deliverables** from their Capstone Project, **all four of our Unit Projects**,  well as **80% of any additional assignments**. 
 
-#### Course Completion Requirements
-- [ ] Unit Projects 1-4
+#### Mandated Course Completion Requirements
 - [ ] Capstone Deliverables 1-5
+- [ ] Unit Projects 1-4
+- [ ] 80% of all assigned work
 
-These assignments contain requirements and rubrics you can use to evaluate student performance.
+In practice, this 80% requirements means attendance and participation in all daily activities, completion of labs and classwork, and submission of other outcomes-related homework or group assignments. Data has shown that students who complete these assignments perform more favorably in interviews and are generally more prepared for outcomes support, so we strongly recommend that you enforce completion of day to day course activities.
 
-#### Optional Assignments
+#### Optional Course Requirements 
+- [ ] Group Projects (i.e. Kaggle) and Weekly Assignments
+- [ ] Blog and Portfolio Development
+- [ ] Labs and Homework
 
-Any assignments outside of the unit projects and capstone are **optional** and do not require your specific feedback. Labs, homework, and other group activities are core **student-led** components of the curriculum. In other words, it is in the student's best interest to complete these as part of their dedicated practice to attaining the competencied needed to enter the field of data science.
+
+Daily assignments outside of the core required capstone and unit project deliverables do not require specific feedback from instructors. Personalized feedback should be reserved for student projects. Set this expectation early and consistently.
 
 ---
 
@@ -47,7 +52,7 @@ Below are a few high level principles and best practices for providing feedback 
 
 - Review project requirments and rubrics with students early on, so that they know how they will be assessed.
 - Focus your project feedback on **required** project components
-- Work with your local team to provide timely, targeted feedback for **every** student
+- Work with your local team to provide timely, targeted feedback for **every** project
 
 ---
 
@@ -58,34 +63,48 @@ Next, we'll walk you through the specific steps necessary to grade a student pro
 
 #### How to Grade Projects
 
-1. Make a copy of the relevant project rubric.
-2. Score project requirements using rubric criteria.
-3. Provide at least one comment on major deliverable portions of the requirements. We recommend following a "glow/grow" template, with one item of praise and one suggestion for improvement.
+1. Make a copy of the project requirements.
+2. Use our rubric to assign a point value for all required items.
+3. Provide at least one comment for each requirements. 
+
+> We recommend following a "glow/grow" template, with one item of praise and one suggestion for improvement.
 
 
-#### Our Rubrics
-We use a simple 3 point scale. Using the guideline below, assess how well students performed on all required sections on a scale of 0-2, and share those scores in your feedback:
+#### GA Rubric
+Here at GA, we use a simple 3 point scale. Using the guideline below, assess how well students performed on all required sections on a scale of 0-2, and share those scores in your feedback:
 
-Score  | Expectations
+Score | Expectations
 --- | ---
 **0** | _Incomplete._
 **1** | _Does not meet expectations._
 **2** | _Meets expectations, good job!_
+
+> We used to add an additional integer for "exceeding expectations" but discontinued this as in practice, it set inconsistent standards for students and instructors, and did not necessarily apply to all GA project requirements.
 
 ---
 
 <a id='types'></a>
 ## Unit vs Capstone Projects
 
-Below we walk you through some of the differences in grading unit project submissions and capstone project deliverables.
+Next we'll walk you through some differences in grading unit projects vs  capstone projects.
 
-#### Unit Project Grading
+#### Grading Unit Projects
 
-Unit project questions are assigned a difficulty level, denoted by colored badges: **Required**, **Bonus**, and **Challenge**. Students are told to complete all of the Required sections, which they can expect feedback on. 
+In DSI, unit project questions are assigned a difficulty level, denoted by colored badges: **Required**, **Bonus**, and **Challenge**. Students are told to complete all of the **Required** sections, which they can expect feedback on. 
 
-> Bonus and Challenge sections are optional; therefore, students should not expect feedback on those sections.
+> Bonus and Challenge sections are optional; therefore, students should not expect feedback on those sections. These are intended primarily for differentiation and enrichment, to provide stretch goals for students to push themselves.
 
-Instructors should assess how well students performed on each required question with a scale of 0-2, and share those scores in their feedback:
+In preparing qualitative feedback for students, consider how well students performed in each of these required questions. Your feedback here should be diagnostic and constructive. In other words, review responses for specific gaps in performance and offer concrete suggestions for improvement.
+
+Additionally, each unit project's description includes a "Requirements" rubric, which lists the competencies students are expected to demonstrate in their work. Based on your diagnostic review of their submission, use our rubric to assign a point value to each item in the rubric.
+
+For example, Unit Project 1 might ask students to demonstrate:
+
+  - Command of basic Python data structures
+  - Command of basic Python syntax and control log
+  - Comfort with calculating basic descriptive statistics
+
+Using our scale of 0-2, you would input scores for each line, resulting in an overall total for that student's project.
 
 Score  | Expectations
 --- | ---
@@ -93,27 +112,21 @@ Score  | Expectations
 **1** | _Does not meet expectations._
 **2** | _Meets expectations, good job!_
 
-Additionally, each project's readme "Requirements" section includes a list of skills students are expected to demonstrate. For example, Unit Project 1 might ask students to demonstrate:
-
-  - Command of basic Python data structures
-  - Command of basic Python syntax and control log
-  - Comfort with calculating basic descriptive statistics
-
-In preparing qualitative feedback for students, consider how well students performed in each of these areas. 
 
 #### Capstone Project Grading
 
-Capstone projects do not include guided prompts; therefore, they do not use the same 3-tiered challenge structure as the unit projects. Instead, capstone projects have a core set of requirements and deliverable formats that should inform your evaluation of student work.
+Capstone projects do not include guided prompts; therefore, they do not use the same 3-tiered challenge structure as our unit projects. Instead, capstone projects simply define a core set of requirements and deliverable formats that should inform your evaluation of student work.
 
 For example, Part 1 of the Capstone project asks students to:
 - Host a lightning talk with 2-3 topics
+- Create a slide deck for this talk
 - For each topic, include:
-  - problem statement
-  - potential audience
-  - project goals/success metrics
-  - possible data source
+ - problem statement
+ - potential audience
+ - project goals/success metrics
+ - possible data source
   
-Instructors should use their best judgement to *score* each of these requirements using our simple 3-point rubric (0-2).
+Instructors should use their best judgement to *score* each of these requirements using the GA rubric.
 
 Score  | Expectations
 --- | ---
@@ -123,7 +136,7 @@ Score  | Expectations
 
 
 #### Alternative Method
-For later capstone deliverables and complex projects, instructors may alternatively find it helpful to review student submissions by scoring and commenting on their performance via each step of the DSI data science workflow:
+For later capstone deliverables or complex projects, instructors may alternatively find it helpful to review student submissions by scoring and commenting on their performance within each step of the DSI data science workflow:
 
 - [ ] Identify Problem
 - [ ] Acquire Data
@@ -145,7 +158,7 @@ Instructors should devote specific time to check in with students before and aft
 
 Many instructors have found the use of a *daily stand* method useful for holding students publicly accountable to incremental progress on projects during the week leading up to a deadline. This is a good chance to briefly discuss student progress, next steps, and blockers.
 
-Instructors may optionally choose to conduct these check-ins individually during office hours.
+Instructors may alternatively choose to conduct these check-ins individually during office hours.
 
 #### After Project Submission
 
