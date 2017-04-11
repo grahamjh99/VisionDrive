@@ -30,17 +30,18 @@ These assignments contain requirements and rubrics you can use to evaluate stude
 
 Any assignments outside of the unit projects and capstone are **optional** and do not require your specific feedback. Labs, homework, and other group activities are core **student-led** components of the curriculum. In other words, it is in the student's best interest to complete these as part of their dedicated practice to attaining the competencied needed to enter the field of data science.
 
+---
 
 <a id='why'></a>
-## Why to Grade
+## Why We Grade
 
-Below are a few high level principles and best practices for providing project feedback:
+Below are a few high level principles and best practices for providing feedback on student projects at GA:
 
 #### Guiding Principles for Project Feedback
 
-- Provide structured feedback
-- Define clear targets for student performance
-- Verify continued progress and improvement throughout the course
+- Grading provides structured feedback to students
+- Grading defines clear targets for student performance
+- Grading verifies continued progress and improvement by a student throughout the course
 
 #### Best Practices for Project Feedback 
 
@@ -53,7 +54,7 @@ Below are a few high level principles and best practices for providing project f
 <a id='how'></a>
 ## How to Grade
 
-
+Next, we'll walk you through the specific steps necessary to grade a student project.
 
 #### How to Grade Projects
 
@@ -70,18 +71,6 @@ Score  | Expectations
 **0** | _Incomplete._
 **1** | _Does not meet expectations._
 **2** | _Meets expectations, good job!_
-
-
-#### More Tips for Providing Project Feedback
-
-- Provide precise praise
-- Identify action step for improvement
-- Give context as to why what action step is important
-- End with a targeted question related to the action step, that tests whether the student has understood the feedback.
-
-  - **Good Example**: "Great work! Your code is well organized. Good use of breaking tasks into separate functions. I see that in your app.js file you used the variable name x on line 84. Consider using more descriptive variable names. As a code reviewer, this would jump out at me. I want to know what every variable contains just by looking at the variable name itself. I do see some other descriptive variables! If we were to refactor this code, what would you want to rename x on line 84?"
-
-  - **Poor Example**: "Great Work! You’re doing a good job with all this. Do you have any questions about anything?"
 
 ---
 
@@ -221,5 +210,17 @@ Requirement | Score
 **Plot, visualize and interpret your results** | 2
 **Formulate and test hypotheses** | 2
 **Total scores (out of 6 possible)** | 5
+
+
+#### More Tips for Providing Project Feedback
+
+- Provide precise praise
+- Identify action step for improvement
+- Give context as to why what action step is important
+- End with a targeted question related to the action step, that tests whether the student has understood the feedback.
+
+  - **Good Example**: "Great work! Your code is well organized. Good use of breaking tasks into separate functions. I see that in your app.js file you used the variable name x on line 84. Consider using more descriptive variable names. As a code reviewer, this would jump out at me. I want to know what every variable contains just by looking at the variable name itself. I do see some other descriptive variables! If we were to refactor this code, what would you want to rename x on line 84?"
+
+  - **Poor Example**: "Great Work! You’re doing a good job with all this. Do you have any questions about anything?"
 
 ---
