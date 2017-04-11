@@ -17,7 +17,7 @@ Below, we'll walk you through:
 ---
 
 <a id='what'></a>
-## What to Grade
+## I. What to Grade
 In DSI, students are required to complete **all 5 deliverables** from their Capstone Project, **all four of our Unit Projects**,  well as **80% of any additional assignments**. 
 
 ### Mandated Course Completion Requirements
@@ -38,7 +38,7 @@ Daily assignments outside of the core required capstone and unit project deliver
 ---
 
 <a id='why'></a>
-## Why We Grade
+## II. Why We Grade
 
 Below are a few high level principles and best practices for providing feedback on student projects at GA:
 
@@ -57,7 +57,7 @@ Below are a few high level principles and best practices for providing feedback 
 ---
 
 <a id='how'></a>
-## How to Grade
+## III. How to Grade
 
 Next, we'll walk you through the specific steps necessary to grade a student project.
 
@@ -85,7 +85,7 @@ Score | Expectations
 ---
 
 <a id='types'></a>
-## Unit vs Capstone Projects
+## IV. Unit vs Capstone Projects
 
 Next we'll walk you through some differences in grading unit projects vs capstone projects.
 
@@ -151,7 +151,7 @@ For later capstone deliverables or complex projects, instructors may alternative
 ---
 
 <a id='feedback'></a>
-## How to Deliver Feedback
+## V. How to Deliver Feedback
 
 Instructors should devote specific time to check in with students before and after project submission. 
 
@@ -194,7 +194,7 @@ In-person project feedback is not troubleshooting time. Instead, the goal is to 
 ---
 
 <a id='example'></a>
-## Example Feedback
+## VI. Example Feedback
 
 Below are two examples of feedback on a project asking students to do EDA on Billboard Top 100 data. Both follow a "glow/grow" template, with scores based on the project requirements. This feedback can be delivered via Github PR or email (e.g. copy-pasting from a googledocs), and followed up with an in-person 1:1 review as needed.
 
