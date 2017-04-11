@@ -10,7 +10,9 @@ Below, we'll walk you through:
 1. [What to Grade](#what)
 2. [Why we Grade](#why)
 3. [How to Grade](#how)
-4. [How to Deliver/Discuss Grades](#feedback)
+4. [Unit vs Capstone Projects](#types)
+5. [How to Deliver/Discuss Grades](#feedback)
+6. [Example Feedback](#example)
 
 ---
 
@@ -27,6 +29,7 @@ These assignments contain requirements and rubrics you can use to evaluate stude
 #### Optional Assignments
 
 Any assignments outside of the unit projects and capstone are **optional** and do not require your specific feedback. Labs, homework, and other group activities are core **student-led** components of the curriculum. In other words, it is in the student's best interest to complete these as part of their dedicated practice to attaining the competencied needed to enter the field of data science.
+
 
 <a id='why'></a>
 ## Why to Grade
@@ -82,6 +85,68 @@ Score  | Expectations
 
 ---
 
+<a id='types'></a>
+## Unit vs Capstone Projects
+
+Below we walk you through some of the differences in grading unit project submissions and capstone project deliverables.
+
+#### Unit Project Grading
+
+Unit project questions are assigned a difficulty level, denoted by colored badges: **Required**, **Bonus**, and **Challenge**. Students are told to complete all of the Required sections, which they can expect feedback on. 
+
+> Bonus and Challenge sections are optional; therefore, students should not expect feedback on those sections.
+
+Instructors should assess how well students performed on each required question with a scale of 0-2, and share those scores in their feedback:
+
+Score  | Expectations
+--- | ---
+**0** | _Incomplete._
+**1** | _Does not meet expectations._
+**2** | _Meets expectations, good job!_
+
+Additionally, each project's readme "Requirements" section includes a list of skills students are expected to demonstrate. For example, Unit Project 1 might ask students to demonstrate:
+
+  - Command of basic Python data structures
+  - Command of basic Python syntax and control log
+  - Comfort with calculating basic descriptive statistics
+
+In preparing qualitative feedback for students, consider how well students performed in each of these areas. 
+
+#### Capstone Project Grading
+
+Capstone projects do not include guided prompts; therefore, they do not use the same 3-tiered challenge structure as the unit projects. Instead, capstone projects have a core set of requirements and deliverable formats that should inform your evaluation of student work.
+
+For example, Part 1 of the Capstone project asks students to:
+- Host a lightning talk with 2-3 topics
+- For each topic, include:
+  - problem statement
+  - potential audience
+  - project goals/success metrics
+  - possible data source
+  
+Instructors should use their best judgement to *score* each of these requirements using our simple 3-point rubric (0-2).
+
+Score  | Expectations
+--- | ---
+**0** | _Incomplete._
+**1** | _Does not meet expectations._
+**2** | _Meets expectations, good job!_
+
+
+#### Alternative Method
+For later capstone deliverables and complex projects, instructors may alternatively find it helpful to review student submissions by scoring and commenting on their performance via each step of the DSI data science workflow:
+
+- [ ] Identify Problem
+- [ ] Acquire Data
+- [ ] Parse Data
+- [ ] Mine Data
+- [ ] Refine Data       
+- [ ] Model Data
+- [ ] Present Results
+- [ ] Deploy Data
+
+---
+
 <a id='feedback'></a>
 ## How to Deliver Feedback
 
@@ -95,12 +160,14 @@ Instructors may optionally choose to conduct these check-ins individually during
 
 #### After Project Submission
 
-Once instructors have had a chance to review student work and are ready to provide feedback, we recommend scheduling a series of 1:1's to go over the project rubric and feedback together. Students should ideally have up to 30 minutes to review their project evaluation or walk through a code review with their instructional team.
+Project feedback can be delivered in many ways. For example, instructors can use Github pull requests, Slack, or email to deliver written comments to their students. We recommend that instructors follow up written feedback with "office hours," 15-30 min blocks of time where students can optionally debrief project evaluations in-person. These are suggested for unit projects, and **required** for capstone projects.
+
+Students should use this time to review their project evaluation or walk through a guided code review (e.g. ask them to explain and debug sections of their code, in order to confirm that they understand how it works).
 
 
 #### Tips on Providing Feedback
 
-Project feedback is not troubleshooting time. Instead, the goal is to review the student's code and talk about actionable feedback for enhancing the student's project in the future. Below is a sample framework instructors can use to discuss 
+Project feedback is not troubleshooting time. Instead, the goal is to review the student's code and talk about actionable feedback for enhancing the student's project in the future. Below is a sample framework instructors can use to organize in-person discussions:
 
 - __Student (10 mins)__: Prompt the student walk through and/or defend their project / model / code.
 
@@ -121,3 +188,38 @@ Project feedback is not troubleshooting time. Instead, the goal is to review the
 
 - __Instructional Team Member__(Followup): Be sure to report a summary of your evaluations using your local course tracker. This will help your team identify trends in student performance over time.
 
+---
+
+<a id='example'></a>
+## Example Feedback
+
+Below are two examples of feedback on a project asking students to do EDA on Billboard Top 100 data. Both follow a "glow/grow" template, with scores based on the project requirements. This feedback can be delivered via Github PR or email (e.g. copy-pasting from a googledocs), and followed up with an in-person 1:1 review as needed.
+
+#### Example 1:
+
+- _Excellent work here. You obviously put a lot of care into this project, and it shows that you're on the track to success. You have good articulations of assumptions and hypothesis, and well-written functions to clean the data. (Do be wary of using special names for variables, though, e.g. 'min'.)_
+
+- _Nice job with the t-test: failing to reject the null was the right choice. One correction: it looks like you need to remove the rap observations from bb.daysToPeak, so that you're comparing the mean of daysToPeak(rap) vs daysToPeak(not-rap). (Maybe the p-value will be < .05 after this.) Also, your visualizations are lacking labels - get in the habit of including these and you'll have an easier time sharing your work with unfamiliar audiences _
+
+Requirement | Score
+----- | ------------
+**Understand and explain the dataset** | 2
+**Plot, visualize and interpret your results** | 1
+**Formulate and test hypotheses** | 1
+**Total scores (out of 6 possible)** | 4
+
+
+#### Example 2:
+
+- _Great work on this. Definitely went down a good path. Your visualizations are excellent, and are sequenced in a clear, logical way; I love the labeling on the stacked barchart of songs in Top 100 / Top 1. However, it looks like you missed identifying some of the risks in the dataset (small sample, limited time period). On the other hand, your comments made it easy to follow your code._
+
+- _You should build on this work by more explicitly suggesting some next steps. E.g. it would be interesting if you argued for/against combining the Rock and Rock 'n Roll categories, based on a qualitative assessment in addition to your quantitative assessment of their performance patterns._
+
+Requirement | Score
+----- | ------------
+**Understand and explain the dataset** | 1
+**Plot, visualize and interpret your results** | 2
+**Formulate and test hypotheses** | 2
+**Total scores (out of 6 possible)** | 5
+
+---
