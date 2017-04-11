@@ -226,7 +226,8 @@ Requirement | Score
 **Total scores (out of 6 possible)** | 5
 
 
-#### More Tips for Providing Project Feedback
+
+### More Tips for Providing Project Feedback
 
 - Provide precise praise
 - Identify at least one action step for improvement
