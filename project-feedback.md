@@ -1,55 +1,54 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Providing Project Feedback
 > _Every student should have a chance to understand how they're doing and to get valuable feedback on the work they've done from trusted mentors in the classroom._
 
-Our goal is to provide meaningful suggestions and personal guidance to all of our students. While there will undoubtedly be nuances in how everyone evaluates individual student portfolio projects, using these guidelines will ensure that your students get the personalized feedback they deserve.
+Specific, timely feedback is critical to student learning. Our goal is to provide meaningful suggestions and guidance to all of our students. While there will undoubtedly be nuances in individual student portfolio evaluation, use these guidelines to ensure that your students get the personalized feedback they deserve.
 
-Specific, timely feedback is critical to student learning. This is a short guide to compiling, structuring, and delivering feedback for your students' projects.
+Our evaluation approach pairs a numeric "grade" (useful for tracking student performance over the course) with instructor-provided qualitative feedback (useful for coaching and improving student performance).
 
-This approach pairs a numeric "grade" (useful for tracking student performance over the course) with qualitative feedback.
+Below, we'll walk you through
 
+1. [What to Grade](#what)
+2. [Why we Grade](#why)
+3. [How to Grade](#how)
+4. [How to Deliver/Discuss Grades](#feedback)
+
+
+
+<a id='what'></a>
 ## What to Grade
 In DSI, students are required to complete **all 5 deliverables** from their Capstone Project, as well as **80% of all additional assignments**, including Unit Projects and any other required labs or assignments. 
 
-##### Assignments You Should Grade + Provide Individual Feedback
-The following assigments contain rubrics you can use to grade and comment on individual student work. See guidelines below.
+#### Course Completion Requirements
+- [ ] Unit Projects 1-4
+- [ ] Capstone Deliverables 1-5
 
-- Unit Projects
-- Capstone Deliverables
+These assignments contain requirements and rubrics you can use to evaluate student performance.
 
-##### Assignments You Should Collect + Provide Group or Opt-In Feedback
-Collect the following assignments but only provide individual feedback on these if a student has specific questions. Otherwise, we recommend that you review them for completion and trends to address with the class as a whole.
+#### Optional Assignments
 
-- Lab Deliverables / Blog Posts
-- Homework Assignments (as applicable)
+Any assignments outside of the unit projects and capstone are **optional** and do not require your specific feedback. Labs, homework, and other group activities are core **student-led** components of the curriculum. In other words, it is in the student's best interest to complete these as part of their dedicated practice to attaining the competencied needed to enter the field of data science.
 
+<a id='why'></a>
+## Why to Grade
 
-## How to Grade
+#### Guiding Principles for Project Feedback
 
-We've created a sample Google form you can copy to use for your own class. It asks students to link to their work, state any specific issues/questions, and describe their preferred feedback format. It also asks whether they would prefer to receive ***public*** feedback on Github or ***private*** feedback on Slack.
+- Provide structured feedback
+- Define clear targets for student performance
+- Verify continued progress and improvement throughout the course
 
-You can optionally adjust this form to limit the type of assignments they should submit, using the titles from the drop-down menu.
+#### Best Practices for Project Feedback 
 
-- [DSI Project / Assignment Submission Form](https://docs.google.com/a/generalassemb.ly/forms/d/150tR5HfHoFt9nEZBHBJWZoS62mrqCb_xshYHFqTrrSg/edit?usp=sharing)
-
-> Note: Feel free to modify this workflow based on local production team feedback.
-
-## Guiding Principles for Project Feedback
-
-- Rubrics are provided to **structure feedback for weekly and capstone projects**.
-- Rubrics are based on a **simple 3-point scale**, tailored for each project.
-- Metrics for "meets expectations" are clearly defined to help you provide **targeted feedback.**
-
-## Best Practices for Project Feedback 
-
-- Students should be shown a copy of the blank rubric when given their project assignment.
-- Rubric categories and evaluation metrics should always be tied to the project specifications.
-- Project categories are based off of the course standards, found in the Data Science Workflow
-- Instructors should work with their local team to provide targeted feedback for **every** student. 
-- Students should ideally receive feedback on their projects **within 2 - 4 days** after submission!
+- Review project requirments and rubrics with students early on, so that they know how they will be assessed.
+- Focus your project feedback on **required** project components
+- Work with your local team to provide timely, targeted feedback for **every** student
 
 ---
 
-## How to Use Our Project Rubrics
+<a id='how'></a>
+## How to Grade
+
+#### How to Use Our Project Rubrics
 
 1. Make a copy of the relevant project rubric.
 2. Score project requirements using rubric criteria.
@@ -68,11 +67,16 @@ You can optionally adjust this form to limit the type of assignments they should
 
 ---
 
-## In-Person Assessment Process
+<a id='feedback'></a>
+## How to Deliver Feedback
+
+During Capstone work, instructors should schedule 1:1's to check in with students about their progress, ideas, or blockers. 
+
+#### In-Person Assessment Process
 
 Instructional teams should meet with students during office hours or one-on-one to review project feedback and discuss growth opportunities. Students should ideally have up to 30 minutes to review their project evaluation or do a code review up to a week after project submission.
 
-## Model / Code Review Tips
+#### Model / Code Review Tips
 
 Code review is not troubleshooting time. Instead, the goal is to review code and talk about actionable feedback for enhancing the student's project in the future.
 
