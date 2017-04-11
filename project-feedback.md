@@ -87,7 +87,7 @@ Score | Expectations
 <a id='types'></a>
 ## Unit vs Capstone Projects
 
-Next we'll walk you through some differences in grading unit projects vs  capstone projects.
+Next we'll walk you through some differences in grading unit projects vs capstone projects.
 
 #### Grading Unit Projects
 
