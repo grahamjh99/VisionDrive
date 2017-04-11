@@ -172,15 +172,15 @@ Students should use this time to review their project evaluation or walk through
 
 In-person project feedback is not troubleshooting time. Instead, the goal is to review the student's code and talk about actionable feedback for enhancing the student's project in the future. Below is a sample framework instructors can use to organize in-person discussions:
 
-- __Student (10 mins)__: Prompt the student walk through and/or defend their project / model / code.
+- **Student (10 mins)**: Prompt the student walk through and/or defend their project / model / code.
 
-- __Student (10 mins)__: Ask the student answer some sample questions:
+- **Student (10 mins)**: Ask the student answer some sample questions:
   - What do you like most about your project?
   - What would you change if you started from scratch?
   - What would you like to add when you have more time?
   - What goals would you set for yourself for your next project or a future version?
 
-- __Instructonal Team Member (10 mins)__: Talk through the evaluation, share a “glow and grow”.
+- **Instructonal Team Member (10 mins)**: Talk through the evaluation, share a “glow and grow”.
   - Make it personal – what about the project was exciting or intriguing?
   - Share any highlights and positive areas (“glow”) where the student went “above and beyond” the requirements
   - Share growth areas around time management, workflow, or project approach
@@ -189,7 +189,7 @@ In-person project feedback is not troubleshooting time. Instead, the goal is to 
   - Review their performance against the requirements and explain any rubric scores, if necessary.
   - Ask them to compare their progress against any goals they set previously, if applicable.
 
-- __Instructional Team Member__(Followup): Be sure to report a summary of your evaluations using your local course tracker. This will help your team identify trends in student performance over time.
+- **Instructional Team Member (Followup)**: Be sure to report a summary of your evaluations using your local course tracker. This will help your team identify trends in student performance over time.
 
 ---
 
@@ -200,9 +200,9 @@ Below are two examples of feedback on a project asking students to do EDA on Bil
 
 ### Example 1:
 
-- _Excellent work here. You obviously put a lot of care into this project, and it shows that you're on the track to success. You have good articulations of assumptions and hypothesis, and well-written functions to clean the data. (Do be wary of using special names for variables, though, e.g. 'min'.)_
+- *Excellent work here. You obviously put a lot of care into this project, and it shows that you're on the track to success. You have good articulations of assumptions and hypothesis, and well-written functions to clean the data. (Do be wary of using special names for variables, though, e.g. 'min'.)*
 
-- _Nice job with the t-test: failing to reject the null was the right choice. One correction: it looks like you need to remove the rap observations from bb.daysToPeak, so that you're comparing the mean of daysToPeak(rap) vs daysToPeak(not-rap). (Maybe the p-value will be < .05 after this.) Also, your visualizations are lacking labels - get in the habit of including these and you'll have an easier time sharing your work with unfamiliar audiences _
+- *Nice job with the t-test: failing to reject the null was the right choice. One correction: it looks like you need to remove the rap observations from bb.daysToPeak, so that you're comparing the mean of daysToPeak(rap) vs daysToPeak(not-rap). (Maybe the p-value will be < .05 after this.) Also, your visualizations are lacking labels - get in the habit of including these and you'll have an easier time sharing your work with unfamiliar audiences*
 
 Requirement | Score
 ----- | ------------
@@ -214,9 +214,9 @@ Requirement | Score
 
 ### Example 2:
 
-- _Great work on this. Definitely went down a good path. Your visualizations are excellent, and are sequenced in a clear, logical way; I love the labeling on the stacked barchart of songs in Top 100 / Top 1. However, it looks like you missed identifying some of the risks in the dataset (small sample, limited time period). On the other hand, your comments made it easy to follow your code._
+- *Great work on this. Definitely went down a good path. Your visualizations are excellent, and are sequenced in a clear, logical way; I love the labeling on the stacked barchart of songs in Top 100 / Top 1. However, it looks like you missed identifying some of the risks in the dataset (small sample, limited time period). On the other hand, your comments made it easy to follow your code.*
 
-- _You should build on this work by more explicitly suggesting some next steps. E.g. it would be interesting if you argued for/against combining the Rock and Rock 'n Roll categories, based on a qualitative assessment in addition to your quantitative assessment of their performance patterns._
+- *You should build on this work by more explicitly suggesting some next steps. E.g. it would be interesting if you argued for/against combining the Rock and Rock 'n Roll categories, based on a qualitative assessment in addition to your quantitative assessment of their performance patterns.*
 
 Requirement | Score
 ----- | ------------
@@ -229,9 +229,9 @@ Requirement | Score
 #### More Tips for Providing Project Feedback
 
 - Provide precise praise
-- Identify action step for improvement
-- Give context as to why what action step is important
-- End with a targeted question related to the action step, that tests whether the student has understood the feedback.
+- Identify at least one action step for improvement
+- Give context as to why that action step is important
+- End with a targeted question related to the action step, that tests whether the student has understood your feedback.
 
   - **Good Example**: "Great work! Your code is well organized. Good use of breaking tasks into separate functions. I see that in your app.js file you used the variable name x on line 84. Consider using more descriptive variable names. As a code reviewer, this would jump out at me. I want to know what every variable contains just by looking at the variable name itself. I do see some other descriptive variables! If we were to refactor this code, what would you want to rename x on line 84?"
 
