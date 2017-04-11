@@ -73,11 +73,13 @@ Next, we'll walk you through the specific steps necessary to grade a student pro
 ### GA Rubric
 Here at GA, we use a simple 3 point scale. Using the guideline below, assess how well students performed on all required sections on a scale of 0-2, and share those scores in your feedback:
 
+
 Score | Expectations
---- | ---
+:--- | :---
 **0** | _Incomplete._
 **1** | _Does not meet expectations._
 **2** | _Meets expectations, good job!_
+
 
 
 > We used to add an additional integer for "exceeding expectations" but discontinued this - in practice, it set inconsistent standards for students and instructors, and did not necessarily apply to all GA project requirements.
