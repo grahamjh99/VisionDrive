@@ -8,14 +8,12 @@ One of the best ways to test ideas quickly is to share them with others. A good 
 
 This deliverable will provide you with guidance to help you select an awesome topic and begin to build a polished Capstone project. 
 
-**Goal**: Host a lightning talk presentation describing at least two project proposals, including associated data, goals, audiences, and metrics.
+**Goal**: Host a lightning talk presentation describing *at least two* project proposals, including associated data, goals, audiences, and metrics.
 
 ---
 
 ## Requirements
-1. Prepare a slide deck and host a 3-5 minute lightning talk on **2-3** potential topics for your DSI capstone project. 
-
-For each topic, define **all** required areas:
+1. Prepare a slide deck and host a 3-5 minute lightning talk on **at least two** potential topics for your DSI capstone project. For each topic, define **all** required areas:
 
 2. Topic 1
    - Problem Statement
@@ -32,7 +30,7 @@ For each topic, define **all** required areas:
    - Data Source(s)
 
 #### BONUS
-4. Beyond the two required topics, what other potential topics might you explore?
+4. Beyond the two required topics, what other potential topics might you explore? (e.g. 3 or more)
 5. For all datasets, identify their source, format, and necessary action items to obtain or access them.
 6. Create a blog post of at least 500 words (and 1-2 graphics!) that describes your project idea, data, and audience. Link to it in your presentation appendix.
  
