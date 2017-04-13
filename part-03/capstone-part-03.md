@@ -2,47 +2,47 @@
 
 ## Overview
 
-Document your work and get feedback along the way! Write about your analysis as you tune the model for your capstone project and summarize your initial findings.
+Begin quantitatively describing and visualizing your data. With rich datasets, EDA can go down an endless number of roads. Maintain perspective on your goals and scope your EDA accordingly. 
 
-This "Progress Report" should describe your approach and results, while also documenting any successes, setbacks, and lessons learned along the way.
+Managing your own time is a critical skill in analysis projects. Keep notes on your approach, results, setbacks, and findings! These will form the basis of your "progress report" to us for Part 3, as you meet with your instructors to discuss how things are going and what to do next.
 
-Include visual and statistical analysis in your progress report, so you can get in-depth feedback. Be prepared to meet 1:1 with your instructors to discuss your results so far.
-
-**Goal**: A summative report that describes your progress and includes your initial analysis, results, and any roadblocks or surprises.
+**Goal**: A brief report that describes your EDA and analysis so far, as well as your concrete next steps.
 
 ---
 
 ## Requirements
 
-Your work must:
+1. Create a "progress report" that documents:
+   - Your approach to exploratory data analysis
+   - Your initial results
+   - Any roadblocks, setbacks, or surprises
+   
+2. Perform initial descriptive and visual analysis of your data.
+   - Identify outliers
+   - Summarize risks and limitations 
 
-- Create a "Progress Report" that documents your performance so far:
- - Summarize and refine exploratory data analysis, correlating and plotting data
- - Run model (Train and test subset as needed)
- - Summarize initial results and describe how you intend to evaluate & tune
- - Describe successes, setbacks, & lessons learned along the way.
+3. Discuss your proposed next steps
+   - Describe how your EDA will inform your modeling decisions
+   - What are three concrete actions you need to take next?
 
-- ***Bonus:***
- - Visualize your model using two or more of the data-viz tools we've covered in class 
- - Create a blog post of at least 500 words explaining your model, process, and lessons learned for a non-technical audience. Include 1-2 graphics to illustrate your approach. Link to it in your Progress Report notebook.
+
+#### BONUS
+
+4. Visualize your EDA and approach using at least **two or more** of the data visualizations methods we've covered in class.
+5. Create a blog post of at least 500 words explaining your EDA so far, including your results, setbacks, and lessons learned. Link to this in your notebook.
 
 ---
 
 ## Deliverable Format & Submission
 
-- Materials must be submitted in a clearly labeled Jupyter notebook, including:
- - Markdown writeups, code, and visualizations
-- Materials must be submitted via a Github PR to the instructor's repo.
-- Materials should be submitted by the end of Week 9; 1:1 meetings will occur during Week 10.
+- Format: Jupyter Notebook
 
 ---
 
 ## Suggested Ways to Get Started
 
-- Don’t hesitate to write throwaway code to solve short term problems
-- Read the docs for whatever technologies you use. Most of the time, there is a tutorial that you can follow, but not always, and learning to read documentation is crucial to your success!
-- Write pseudocode before you write actual code. Thinking through the logic of something helps.  
-- Document **everything**.
+- Document **everything** as you go! This will give you valuable material to pull into your report - and will paint a more accurate picture than trying to summarize afterward :)
+- Be candid! This is not a race, but a chance to get valuable feedback. Be honest about what techniques have worked, what steps have taken you down the wrong turns, and what blockers you've run into.
 
 ---
 
