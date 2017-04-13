@@ -1,20 +1,26 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Part 1: Capstone Topic + Dataset Validation
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Part 1: Pitch + Problem Statement
 
-### Overview
+## Overview
 
-In the field of data science, projects are **practical**. A good project is manageable and relates to your working domain; however, it can be hard to scope good ideas when you're new to a field. That's where Part 1 of your Capstone Project comes in.
+In the field of data science, good projects are **practical**. Your capstone project should be manageable and affect a real world audience. This might be a domain you are familiar with, a particular interest you have, something that affects a community you are involved in, or an area that relates to a field you wish to work in.
 
-One of the best ways to test expectations and get feedback is to *share your ideas with others*. For part 1 of your Capstone, you'll come up with a problem you want to solve with data, then present it to the class. You must include at least one potential dataset that could be used to solve your problem, as well as at least one potential audience for your findings.
+One of the best ways to test ideas quickly is to share them with others. A good data scientist has to be comfortable discussing ideas and presenting to audiences. That's why for Part 1 of your Capstone project, you'll be preparing a lightning talk on some potential interest areas and datasets.
 
-This project will provide you with immediate feedback and guidance to help you select an awesome topic and build a polished Capstone portfolio. You will need to identify your problem statement, goals & criteria for success, potential audience, and 1-2 potential datasets. You will present this information in a slide deck, and should be prepared to answer questions and defend your data selection(s). Presentations should take no more than 3-5 minutes.
+This deliverable will provide you with guidance to help you select an awesome topic and begin to build a polished Capstone project. 
 
-**Goal**: A lightning talk presentation describing your proposed project, criteria, audience, and potential dataset(s)
+**Goal**: Host a lightning talk presentation describing at least two proposed project ideas and associated data, goals, audiences, and metrics.
 
 ---
 
-### Requirements
+## Requirements
 
-Your work must:
+Prepare a slide deck and host a lightning talk on 2-3 potential topics for your DSI capstone project. For each topic, define:
+
+- Problem Statement
+- Potential Audience 
+- Goals
+- Success Metrics
+- Possible Data Sources
 
 - Define your problem statement, goals, and success criteria.
 - Describe 1-2 potential datasets that address your problem statement
@@ -22,14 +28,15 @@ Your work must:
 - Create a 3-5 minute presentation slide deck
 - Be prepared to discuss and defend your topic & dataset(s)
 
-- ***Bonus:***
- - Identify the source and the format of your dataset(s)
- - Write the Python code needed to read in your dataset(s) (**Hint**: numpy method getfromtxt)
+#### Bonus:
+ - For all datasets, identify their source, format, and necessary action items to obtain or access them.
  - Create a blog post of at least 500 words (and 1-2 graphics!) that describes your project idea, data, and audience. Link to it in your presentation appendix.
+ 
+ ***Remember, if you can't find data to support your topic, then you can't move forward.***
 
 ---
 
-### Necessary Deliverables / Submission
+## Necessary Deliverables / Submission
 
 - Presentation Slide Deck of 3-5 minutes, including:
  - Description, problem statement, audience, goals, & success metrics.
@@ -38,22 +45,33 @@ Your work must:
 
 ---
 
-### Suggested Ways to Get Started
+## Suggested Ways to Get Started
 
-- Read the docs for whatever technologies you use. Most of the time, there is a tutorial that you can follow, but not always, and learning to read documentation is crucial to your success!
-- Write pseudocode before you write actual code. Thinking through the logic of something helps.  
-- Document **everything**.
+Ask:
+- What is the scope of the need or problem I wish to investigate?
+- Who is this for? Who is impacted or affected by this data? Who would benefit from this model?
+- What are my goals for this investigation?
+- What does success look like? How will I know if my model performs well?
+- Where will I find data for this project? Is the data available?
 
+Bonus:
+- What format is the data in? What specific steps do I need to take to access it?
+- How will I explain this project to outside audiences?
 
-### Useful Resources
+Tips:
+- For your first potential topic, start with an idea, then look for potential data that could be used to support that idea.
+- For your next potential topic, reverse the process; look for interesting data and then extrapolate problems it could solve and audiences it could impact.
+
+---
+
+## Useful Resources
 
 - [How to find the data you need](http://flowingdata.com/2009/10/01/30-resources-to-find-the-data-you-need/)
 - [How to give a good lightning talk](https://www.semrush.com/blog/16-ways-to-prepare-for-a-lightning-talk/)
 
 ---
 
-
-### Project Feedback + Evaluation
+## Project Feedback + Evaluation
 
 [Attached here is a complete rubric for this project.](./part-01-rubric.md)
 
@@ -64,6 +82,3 @@ Score  | Expectations
 **0** | _Incomplete._
 **1** | _Does not meet expectations._
 **2** | _Meets expectations, good job!_
-
-
- This will serve as a helpful overall gauge of whether you met the project goals, but __the more important scores are the individual ones__ above, which can help you identify where to focus your efforts for the next project!
