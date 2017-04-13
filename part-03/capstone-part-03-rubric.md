@@ -22,7 +22,7 @@ Score  | Expectations
 **2** | _Meets expectations, good job!_
 
 
-#### Requirements
+#### REQUIREMENTS
 1. Create a "progress report" that documents:
    - Your approach to exploratory data analysis
    - Your initial results
