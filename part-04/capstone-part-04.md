@@ -1,6 +1,6 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Part 4: Report Writeup + Technical Analysis
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Part 4: Findings + Technical Report
 
-### Overview
+## Overview
 
 In the real world, you'll frequently need to share your findings with other experts. In part 4 of our Capstone project, you'll assemble a technical notebook that details the findings of your predictive model to share with your peers. It should be written in a language that satisfies technical stakeholders, providing complete documentation of your problem statement, approach, analysis, and source code.
 
@@ -12,7 +12,9 @@ Where applicable, show visualizations of your analysis, explaining the outliers 
 
 **Goal:** A technical Jupyter notebook that reviews and explains your model for technical stakeholders, including all necessary code and variables.
 
-### Requirements
+---
+
+## Requirements
 
 Your work should document findings for peers and technical stakeholders, including:
 
@@ -34,7 +36,7 @@ Your work should document findings for peers and technical stakeholders, includi
 
 ---
 
-### Necessary Deliverables
+## Deliverable Format & Submission
 
 - Materials must be submitted in a clearly labeled Jupyter notebook, including:
  - Markdown writeups, code, and visualizations
@@ -43,31 +45,30 @@ Your work should document findings for peers and technical stakeholders, includi
 
 ---
 
-### Suggested Ways to Get Started
+## Suggested Ways to Get Started
 
 - Don’t hesitate to write throwaway code to solve short term problems
 - Read the docs for whatever technologies you use. Most of the time, there is a tutorial that you can follow, but not always, and learning to read documentation is crucial to your success!
 - Write pseudocode before you write actual code. Thinking through the logic of something helps.  
 - Document **everything**.
 
-### Useful Resources
+---
+
+## Useful Resources
 
 - [How to Report Statistics to Technical Audiences](http://abacus.bates.edu/~ganderso/biology/resources/writing/HTWstats.html)
 - [Data Science Employers Value Research Reports](https://www.quora.com/What-is-a-good-way-for-a-data-scientist-to-construct-an-online-portfolio)
 
 ---
 
-### Project Feedback + Evaluation
+## Project Feedback + Evaluation
 
-[Attached here is a complete rubric for this project.](./part-04-rubric.md)
+[Attached here is a complete rubric for this project.](./capstone-part-04-rubric.md)
 
 Your instructors will score each of your technical requirements using the scale below:
 
-    Score | Expectations
-    ----- | ------------
-    **0** | _Incomplete._
-    **1** | _Does not meet expectations._
-    **2** | _Meets expectations, good job!_
-    **3** | _Exceeds expectations, you wonderful creature, you!_
-
- This will serve as a helpful overall gauge of whether you met the project goals, but __the more important scores are the individual ones__ above, which can help you identify where to focus your efforts for the next project!
+Score  | Expectations
+--- | ---
+**0** | _Incomplete._
+**1** | _Does not meet expectations._
+**2** | _Meets expectations, good job!_
