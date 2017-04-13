@@ -73,13 +73,11 @@ Next, we'll walk you through the specific steps necessary to grade a student pro
 ### GA Rubric
 Here at GA, we use a simple 3 point scale. Using the guideline below, assess how well students performed on all required sections on a scale of 0-2, and share those scores in your feedback:
 
-
 Score | Expectations
 :--- | :---
 **0** | _Incomplete._
 **1** | _Does not meet expectations._
 **2** | _Meets expectations, good job!_
-
 
 
 > We used to add an additional integer for "exceeding expectations" but discontinued this - in practice, it set inconsistent standards for students and instructors, and did not necessarily apply to all GA project requirements.
@@ -118,18 +116,29 @@ Score  | Expectations
 
 ### Capstone Project Grading
 
-Capstone projects do not include guided prompts; therefore, they do not use the same 3-tiered challenge structure as our unit projects. Instead, capstone projects simply define a core set of requirements and deliverable formats that should inform your evaluation of student work.
+Capstone projects do not use the same tiered challenge structure as the unit projects. Instead, capstones simply define a core set of requirements that should inform your evaluation of the student's work. 
 
-For example, Part 1 of the Capstone project asks students to:
-- Host a lightning talk with 2-3 topics
-- Create a slide deck for this talk
-- For each topic, include:
- - problem statement
- - potential audience
- - project goals/success metrics
- - possible data source
+As before, you are only responsible for scoring and providing feedback on any "Required" sections. Assign a relative score to the numbered portions, and then fill in any qualitative feedback on the student's work.
+
+For example, in Capstone Part 1, the "Required" portion asks students to:
+
+1. Prepare a slide deck and host a 3-5 minute lightning talk on **at least two** potential topics for your DSI capstone project. For each topic, define all required areas:
+
+2. Topic 1:
+   - Problem Statement
+   - Potential Audience 
+   - Goals
+   - Success Metrics
+   - Data Source(s)
+   
+3. Topic 2:
+   - Problem Statement
+   - Potential Audience 
+   - Goals
+   - Success Metrics
+   - Data Source(s)
   
-Instructors should use their best judgement to *score* each of these requirements using the GA rubric.
+Instructors should use their best judgement to *score* each of these numbered requirements using the GA rubric:
 
 Score  | Expectations
 --- | ---
@@ -138,8 +147,31 @@ Score  | Expectations
 **2** | _Meets expectations, good job!_
 
 
-#### Alternative Method
-For later capstone deliverables or complex projects, instructors may alternatively find it helpful to review student submissions by scoring and commenting on their performance within each step of the DSI data science workflow:
+#### Example
+
+1. Prepare a slide deck and host a 3-5 minute lightning talk on **at least two** potential topics for your DSI capstone project. 
+**SCORE** (+ **COMMENT** as needed)
+
+For each topic, define all required areas:
+2. Topic 1: **SCORE**
+   - Problem Statement: **COMMENT**
+   - Potential Audience: **COMMENT**
+   - Goals: **COMMENT**
+   - Success Metrics: **COMMENT**
+   - Data Source(s): **COMMENT**
+   
+3. Topic 2: **SCORE**
+   - Problem Statement: **COMMENT**
+   - Potential Audience: **COMMENT**
+   - Goals: **COMMENT**
+   - Success Metrics: **COMMENT**
+   - Data Source(s): **COMMENT**
+   
+**TOTAL SCORE** + **OVERALL COMMENTS**
+
+
+### Standards
+For capstone deliverables, instructors may also find it helpful to structure their evaluation by reviewing the student's performance against the suggested standards included from our DSI data science workflow:
 
 - [ ] Identify Problem
 - [ ] Acquire Data
@@ -149,6 +181,19 @@ For later capstone deliverables or complex projects, instructors may alternative
 - [ ] Model Data
 - [ ] Present Results
 - [ ] Deploy Data
+
+#### EXAMPLE
+
+For example, in Capstone, Part 1, the DSI standards listed on the rubric are:
+- [ ] Identify Problem 
+- [ ] Acquire Data 
+- [ ] Present Data 
+
+Instructors struggling to generate substantive feedback to their student's work might use the standards to contextualize their comments, as follows:
+
+- [ ] Identify Problem **COMMENT**
+- [ ] Acquire Data **COMMENT**
+- [ ] Present Data **COMMENT**
 
 ---
 
