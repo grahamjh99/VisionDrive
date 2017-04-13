@@ -22,7 +22,7 @@ Score  | Expectations
 **2** | _Meets expectations, good job!_
 
 
-#### Requirements
+#### REQUIREMENTS
 1. Find and Clean Your Data: Source and format the required data for your project. 
    - Create a database
    - Create a data dictionary
@@ -32,7 +32,7 @@ Score  | Expectations
 3. Describe your data: keep your intended audience(s) in mind.
    - Document your work so far in a Jupyter notebook. 
 
-#### Bonus
+#### BONUS
 4. Document your project goals (revise from your initial pitch)
    - Articulate “Specific aim”
    - Outline proposed methods and models
