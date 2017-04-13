@@ -23,9 +23,7 @@ Score  | Expectations
 
 
 #### REQUIRED
-1. Prepare a slide deck and host a 3-5 minute lightning talk on **2-3** potential topics for your DSI capstone project. 
-
-For each topic, define all required areas:
+1. Prepare a slide deck and host a 3-5 minute lightning talk on **at least two** potential topics for your DSI capstone project. For each topic, define **all** required areas:
 
 2. Topic 1
    - Problem Statement
