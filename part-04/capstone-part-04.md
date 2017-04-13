@@ -1,56 +1,71 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Part 4: Findings + Technical Report
 
 ## Overview
+Data science requires clean data, logical study design, and reproducible results. The best way to do this (and build your portfolio) is to get in the habit of fully documenting your work for your peers and colleagues.
 
-In the real world, you'll frequently need to share your findings with other experts. In part 4 of our Capstone project, you'll assemble a technical notebook that details the findings of your predictive model to share with your peers. It should be written in a language that satisfies technical stakeholders, providing complete documentation of your problem statement, approach, analysis, and source code.
+In Part 4 of our Capstone, you'll assemble a technical notebook that details your model and approach for your peers. It should be written in a straightforward manner, with concisely commented code, documented procedures and reasoning, and logical analysis. Where applicable, include clearly labeled plots, graphs, and other visualizations, explaining any outliers and relationships between features and data.  
 
-Be sure to explain the machine learning applications of your data. Use your model to display correlations, feature importance, and unexplained variance. Explain your research with a summary, reviewing the strengths and weaknesses of any variables in the process.
+Start with a brief "executive summary" and then walk us through each portion of your notebokk, step by step. Explain your goals, describe modeling choices, evaluate model performance, and discuss results. Data science reporting is technical, but don’t forget that your approach should tell us a compelling story about your data.
 
-Many modeling approaches are all about fine-tuning the algorithm parameters and trying to find a specific value. Show how you optimized for this value, and the costs/benefits of doing so. Explain why you have chosen one or many feature(s) over others. Identify what other data and/or features could help your model.
+Include any additional code, data, or other materials in appendices, as needed. Above all, your process descriptions should be concise and relevant to your goals. 
 
-Where applicable, show visualizations of your analysis, explaining the outliers and the relationships between the features/data.  
-
-**Goal:** A technical Jupyter notebook that reviews and explains your model for technical stakeholders, including all necessary code and variables.
+**Goal:** Submit a complete notebook of your model for technical stakeholders. This will form the core component of your portfolio.
 
 ---
 
 ## Requirements
+1. Begin with an executive summary:
+   - What is your goal?
+   - What are your metrics?
+   - What were your findings?
+   - What risks/limitations/assumptions affect these findings?
+   
+2. Walk through your model step by step, starting with EDA
+   - What are your variables of interest?
+   - What outliers did you remove?
+   - What types of data imputation did you perform?
 
-Your work should document findings for peers and technical stakeholders, including:
+3. Summarize your statistical analysis, including:
+   - model selection
+   - implementation
+   - evaluation
+   - inference
 
-- Executive Summary
-- Identification of outliers
-- Description of how you defined your variables
-- Discussion of model selection and implementation
-- Description of any data pipeline(s)
-- Visualizations & statistical analysis
-- Interpretation of findings & relation to goals/success metrics
-- Description of any source code used to conduct analysis
-- Stakeholder recommendations & next steps for model/peers
+4. Clearly document and label each section
+   - Logically organize your information in a persuasive, informative manner
+   - Include notebook headers and subheaders, as well as clearly formatted markdown for all written components
+   - Include graphs/plots/visualizations with clear labels
+   - Comment and explain the purpose of each major section/subsection of your code
+     - *Document your code for your future self, as if another person needed to replicate your approach*
 
-- ***Bonus:***
+5. Host your notebook and any other materials in your own public Github Repository
+   - Include a technical appendix, inlcuding links and explanations to any outside libraries or source code used
+   - Host a local copy of your dataset or include a link to a remotely hosted version
 
-- Describe how you could validate your model's performance over time
-- Explain how you would deploy your model in a production environment
- - Create a blog post of at least 500 words explaining your overall approach, model implementation, specific analysis, findings, and lessons learned. Link to it in your Technical notebook.
+#### BONUS
+6. Describe how this model could be put into real world production. Consider:
+   - How could you continue to validate your model's performance over time?
+   - What steps might you need to take to productionize your model for an enterprise environment?
+   - How would you deploy your model publicly? What could you do to setup your model and share it online right now?
+
+7. Create a blog post of at least 1000 words summarizing your approach in a tutorial format and link to it in your notebook. 
+   - In your tutorial, address a slightly less technical audience; think back to Day 1 of the program - how would you explain and walk through your capstone project to your earlier self?
 
 ---
 
 ## Deliverable Format & Submission
 
-- Materials must be submitted in a clearly labeled Jupyter notebook, including:
- - Markdown writeups, code, and visualizations
-- Materials must be submitted via a Github PR to the instructor's repo.
-- Materials must be submitted by the end of Week 11.
+Format: Jupyter Notebook
 
 ---
 
 ## Suggested Ways to Get Started
 
-- Don’t hesitate to write throwaway code to solve short term problems
-- Read the docs for whatever technologies you use. Most of the time, there is a tutorial that you can follow, but not always, and learning to read documentation is crucial to your success!
-- Write pseudocode before you write actual code. Thinking through the logic of something helps.  
-- Document **everything**.
+- Use the DSI Data Science Framework to help you organize your information
+- For any given step, consider the logic that links it to other steps and clearly desribe each assumption.
+- After writing a draft, leave it alone for at least 24 hours. What would you revise, reword, or take out?
+- Alternatively, read over a draft with a peer or in a group. What areas do they find confusing or unclear?
+
 
 ---
 
