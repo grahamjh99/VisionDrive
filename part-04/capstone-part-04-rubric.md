@@ -1,52 +1,75 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) CAPSTONE PART 4 RUBRIC
-Data Science Immersive | Capstone Project 4				
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) CAPSTONE, PART 4: RUBRIC
 
-Your project will be assessed using the following standards, [derived from the data science workflow](../../../../resources/syllabus/DSI-workflow-v1.pdf):
+## Data Science Immersive | Capstone, Part 4		
+Your project criteria were derived from the following standards, taken from our data science workflow:
 
-- [ ] Identify Problem
-- [ ] Acquire Data
-- [ ] Parse Data
 - [ ] Mine Data
-- [ ]	Refine Data
+- [ ] Refine Data
 - [ ] Model Data
 - [ ] Present Data
-- [ ] *Bonus* Deploy Data
 
 Acceptable performance for these standards is based on how well you've performed the specific requirements listed below.
 
 ---
 
-### Performance Evaluation
-> Instructors: Mark boxes with 'X' or "n/a" if a section does not apply. Note that "Exceeds Expectations" (3pts) is really only applicable for student writeups or specially marked "*Bonus*" Options.
+## Performance Evaluation
+> Instructors: Mark boxes with an `X` or `n/a` if a score does not apply. Grades and indiviual feedback are only necessary for **"required"** sections; bonus objectives are intended for student enrichment.
 
-| Requirements | Incomplete (0) | Does Not Meet Expectations (1) | Meets Expectations (2) | Exceeds Expectations (3) |
-|---|---|---|---|---|
-| Identify: Create executive summary | | | | |
-| Acquire: Demonstrate how you imported, queried, and sorted your data | | | | n/a |
-| Parse: Identify any outliers, define variables | | | | n/a |
-| Mine: Perform statistical analysis, correlate data | | | | n/a |
-| Refine: Describe and plot your data  | | | | n/a |
-| Model: Perform model (train subset as needed)| | | | n/a |
-| Model: Tune and evaluate model | | | | n/a |
-| Present: Discuss data pipeline - importing/sorting/querying/munging | | | | |
-| Present: Discuss statistical and visual analysis | | | | |
-| Present: Discuss model selection and implementation process | | | | *Bonus: Describe any source code used*  |
-| Present: Interpret findings and relate to goals/criteria | | | | |
-| Present: Create recommendations for stakeholders & summarize next steps | | | | |
-| *Bonus! Deploy: Address how to (re)train model over time* | | | | |
-| *Bonus! Deploy: Discuss how to deploy model in production environment* | | | | |
-| *Bonus! Present: Create blog post summary* | | | | |
+#### Rubric
+Score  | Expectations
+--- | ---
+**0** | _Incomplete._
+**1** | _Does not meet expectations._
+**2** | _Meets expectations, good job!_
 
-- Notes:
 
----
+#### Requirements
+1. Begin with an executive summary:
+   - What is your goal?
+   - What are your metrics?
+   - What were your findings?
+   - What risks/limitations/assumptions affect these findings?
+   
+2. Walk through your model step by step, starting with EDA
+   - What are your variables of interest?
+   - What outliers did you remove?
+   - What types of data imputation did you perform?
+
+3. Summarize your statistical analysis, including:
+   - model selection
+   - implementation
+   - evaluation
+   - inference
+
+4. Clearly document and label each section
+   - Logically organize your information in a persuasive, informative manner
+   - Include notebook headers and subheaders, as well as clearly formatted markdown for all written components
+   - Include graphs/plots/visualizations with clear labels
+   - Comment and explain the purpose of each major section/subsection of your code
+     - *Document your code for your future self, as if another person needed to replicate your approach*
+
+5. Host your notebook and any other materials in your own public Github Repository
+   - Include a technical appendix, inlcuding links and explanations to any outside libraries or source code used
+   - Host a local copy of your dataset or include a link to a remotely hosted version
+
+#### BONUS
+6. Describe how this model could be put into real world production. Consider:
+   - How could you continue to validate your model's performance over time?
+   - What steps might you need to take to productionize your model for an enterprise environment?
+   - How would you deploy your model publicly? What could you do to setup your model and share it online right now?
+
+7. Create a blog post of at least 1000 words summarizing your approach in a tutorial format and link to it in your notebook. 
+   - In your tutorial, address a slightly less technical audience; think back to Day 1 of the program - how would you explain and walk through your capstone project to your earlier self?
+
 
 ## Score:
-Based on the requirements, you can earn a maximum of  **39**  points on this project. Your score is: **#**
+Based on the requirements, it is possible to earn a maximum of  **X**  points on this project. Your score is: **X**
 
-- Remember, your total score is helpful as a gauge of how well you met the project requirements, but use the individual standards and instructor feedback to help iterate and improve on your projects!
+- Remember, total scores are helpful as an indicator of how well you followed project instructions, but the most important feedback is to follow up on any actionable advice from your instructors for improving your project in the future!
 
 ---
+
+> Note: The following section is an optional format for providing feedback on a student's overall progress in the course. Use of this format may vary by market; check with your local instructional team for more details.
 
 ## PROGRESS REPORT
 **Student Check-in:**
