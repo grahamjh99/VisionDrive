@@ -22,7 +22,7 @@ Score  | Expectations
 **2** | _Meets expectations, good job!_
 
 
-#### REQUIREMENTS
+#### REQUIRED
 1. Prepare a slide deck and host a 3-5 minute lightning talk on **2-3** potential topics for your DSI capstone project. **For each topic**, you'll need to define:
 
    - Problem Statement
