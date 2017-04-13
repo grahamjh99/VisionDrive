@@ -2,25 +2,27 @@
 
 ## Overview
 
-Based on the feedback you received from your lightning talk, choose **one** of your topic areas to move forward. For Part 2, you'll need to collect the dataset(s) you intend to use for your project.
+Based on the feedback you received from your lightning talk, choose **one** of your topic areas to move forward. For Part 2, you'll need to collect, clean, and document the dataset(s) you intend to use for your project.
 
 This is not always a trivial task. Remember that data acquisition, transformation, and cleaning are typically the most time-consuming parts of data science projects, so don’t procrastinate!
 
-Once you have your data, read into it and review it to confirm whether it is as productive as you intended. If not, switch datasets, gather additional data (e.g. multiple datasets), or revise your project goals. Finally, document your chosen topic criteria and work so far.
+Once you have your data, read into it and review it to confirm whether it is as productive as you intended. If not, switch datasets, gather additional data (e.g. multiple datasets), or revise your project goals. 
 
-**Goal**: Find the data you need for your project, read into it, and document your chosen topic.
+Create your own database and data dictionary, then clean and munge your data as appropriate. Finally, document your work so far.
+
+**Goal**: Find the data you need for your project, clean, and document it.
 
 ---
 
 ## Requirements
 
 1. Find and Clean Your Data: Source and format the required data for your project. 
- - Create a local database
+ - Create a database
  - Create a data dictionary
-2. Perform preliminary data munging and cleaning of the data relevant to your project goals. 
+2. Perform preliminary data munging and cleaning of your data: organize your data relevant to your project goals. 
  - Review data to verify initial assumptions
  - Clean and munge data as necessary
-3. Describe your data, keeping the intended audience of your final report in mind.
+3. Describe your data: keep your intended audience(s) in mind.
  - Document your work so far in a Jupyter notebook. 
 
 #### Bonus
