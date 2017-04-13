@@ -23,8 +23,18 @@ Score  | Expectations
 
 
 #### REQUIRED
-1. Prepare a slide deck and host a 3-5 minute lightning talk on **2-3** potential topics for your DSI capstone project. **For each topic**, you'll need to define:
+1. Prepare a slide deck and host a 3-5 minute lightning talk on **2-3** potential topics for your DSI capstone project. 
 
+For each topic, define all required areas:
+
+2. Topic 1
+   - Problem Statement
+   - Potential Audience 
+   - Goals
+   - Success Metrics
+   - Data Source(s)
+   
+3. Topic 2
    - Problem Statement
    - Potential Audience 
    - Goals
@@ -32,8 +42,9 @@ Score  | Expectations
    - Data Source(s)
 
 #### BONUS
-2. For all datasets, identify their source, format, and necessary action items to obtain or access them.
-3. Create a blog post of at least 500 words (and 1-2 graphics!) that describes your project idea, data, and audience. Link to it in your presentation appendix.
+4. Beyond the two required topics, what other potential topics might you explore?
+5. For all datasets, identify their source, format, and necessary action items to obtain or access them.
+6. Create a blog post of at least 500 words (and 1-2 graphics!) that describes your project idea, data, and audience. Link to it in your presentation appendix.
 
 
 ---
