@@ -1,7 +1,7 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) CAPSTONE, PART 1 RUBRIC
-Data Science Immersive | Capstone Project 1			
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) CAPSTONE, PART 1: RUBRIC
 
-Your project will be assessed using the following standards, [derived from the data science workflow](../../../../resources/syllabus/DSI-workflow-v1.pdf):
+## Data Science Immersive | Capstone, Part 1			
+Your project criteria were derived from the following standards, taken from our data science workflow:
 
 - [ ] Identify Problem
 - [ ] Acquire Data
@@ -11,30 +11,41 @@ Acceptable performance for these standards is based on how well you've performed
 
 ---
 
-### Performance Evaluation
-> Instructors: Mark boxes with 'X' or "n/a" if a section does not apply. Note that "Exceeds Expectations" (3pts) is really only applicable for student writeups or specially marked "*Bonus*" Options.
+## Performance Evaluation
+> Instructors: Mark boxes with an `X` or `n/a` if a score does not apply. Grades and indiviual feedback are only necessary for **"required"** sections; bonus objectives are intended for student enrichment.
 
-| Requirements | Incomplete (0) | Does Not Meet Expectations (1) | Meets Expectations (2) | Exceeds Expectations (3) |
-|---|---|---|---|---|
-| Identify: Define problem statement / topic | | | | |
-| Identify: Define goals & success criteria | | | | |
-| Identify: Define potential audience(s) | | | | |
-| Acquire: Define & describe potential dataset(s) | | | | *Bonus: Include Code to Read in Data* |
-| Present: Create slide deck visuals | | | | |
-| Present: 3-5 min lightning talk + Q/A | | | | n/a |
-| *Bonus! Present: Create blog post summary* | | | | |
+#### Rubric
+Score  | Expectations
+--- | ---
+**0** | _Incomplete._
+**1** | _Does not meet expectations._
+**2** | _Meets expectations, good job!_
 
 
-- Notes:
+#### Requirements
+1. Prepare a slide deck and host a 3-5 minute lightning talk on **2-3** potential topics for your DSI capstone project. **For each topic**, you'll need to define:
+
+   - Problem Statement
+   - Potential Audience 
+   - Goals
+   - Success Metrics
+   - Data Source(s)
+
+#### Bonus:
+2. For all datasets, identify their source, format, and necessary action items to obtain or access them.
+3. Create a blog post of at least 500 words (and 1-2 graphics!) that describes your project idea, data, and audience. Link to it in your presentation appendix.
+
 
 ---
 
 ## Score:
-Based on the requirements, you can earn a maximum of  **20**  points on this project. Your score is: **#**
+Based on the requirements, it is possible to earn a maximum of  **X**  points on this project. Your score is: **X**
 
-- Remember, your total score is helpful as a gauge of how well you met the project requirements, but use the individual standards and instructor feedback to help iterate and improve on your projects!
+- Remember, total scores are helpful as an indicator of how well you followed project instructions, but the most important feedback is to follow up on any actionable advice from your instructors for improving your project in the future!
 
 ---
+
+> Note: The following section is an optional format for providing feedback on a student's overall progress in the course. Use of this format may vary by market; check with your local instructional team for more details.
 
 ## PROGRESS REPORT
 **Student Check-in:**
