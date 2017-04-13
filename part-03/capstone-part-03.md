@@ -1,6 +1,6 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Part 3: Progress Report + Preliminary Findings
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Part 3: EDA + Preliminary Analysis
 
-### Overview
+## Overview
 
 Document your work and get feedback along the way! Write about your analysis as you tune the model for your capstone project and summarize your initial findings.
 
@@ -12,7 +12,7 @@ Include visual and statistical analysis in your progress report, so you can get 
 
 ---
 
-### Requirements
+## Requirements
 
 Your work must:
 
@@ -28,7 +28,7 @@ Your work must:
 
 ---
 
-### Necessary Deliverables / Submission
+## Deliverable Format & Submission
 
 - Materials must be submitted in a clearly labeled Jupyter notebook, including:
  - Markdown writeups, code, and visualizations
@@ -37,31 +37,30 @@ Your work must:
 
 ---
 
-### Suggested Ways to Get Started
+## Suggested Ways to Get Started
 
 - Don’t hesitate to write throwaway code to solve short term problems
 - Read the docs for whatever technologies you use. Most of the time, there is a tutorial that you can follow, but not always, and learning to read documentation is crucial to your success!
 - Write pseudocode before you write actual code. Thinking through the logic of something helps.  
 - Document **everything**.
 
-### Useful Resources
+---
+
+## Useful Resources
 
 - [Describing data visually](http://www.statisticsviews.com/details/feature/6314441/Visualising-Statistics-The-importance-of-seeing-not-just-describing-data.html)
 - [Real world data science workflows often contain setbacks](https://guerrilla-analytics.net/2015/02/20/data-science-workflows-a-reality-check/)
 
 ---
 
-### Project Feedback + Evaluation
+## Project Feedback + Evaluation
 
-[Attached here is a complete rubric for this project.](./part-03-rubric.md)
+[Attached here is a complete rubric for this project.](./capstone-part-03-rubric.md)
 
 Your instructors will score each of your technical requirements using the scale below:
 
-    Score | Expectations
-    ----- | ------------
-    **0** | _Incomplete._
-    **1** | _Does not meet expectations._
-    **2** | _Meets expectations, good job!_
-    **3** | _Exceeds expectations, you wonderful creature, you!_
-
- This will serve as a helpful overall gauge of whether you met the project goals, but __the more important scores are the individual ones__ above, which can help you identify where to focus your efforts for the next project!
+Score  | Expectations
+--- | ---
+**0** | _Incomplete._
+**1** | _Does not meet expectations._
+**2** | _Meets expectations, good job!_
