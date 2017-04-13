@@ -1,6 +1,7 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Part 5: Presentation + Recommendations
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Part 5: Presentation + Non-Technical Summary
 
-### Overview
+
+## Overview
 
 This is it! You've made it to the finish line. Now that you've finished cleaning, modeling, and tuning your data, you'll need to present your results. Whether during an interview or as part of a job, you will frequently have to present your findings to business partners and other interested parties - many of whom won't know anything about data science!
 
@@ -14,7 +15,7 @@ Finally, be prepared to explain and defend your model to an inquisitive audience
 
 ---
 
-### Requirements
+## Requirements
 
 Your presentation must:
 
@@ -41,7 +42,7 @@ Specifically, the content of your presentation presentation should:
 
 ---
 
-### Necessary Deliverables / Submission
+## Deliverable Format & Submission
 
 - A slide deck (or interactive demo) presentation of 10-15 minutes, including:
   - Requirements listed above + relevant visuals
@@ -49,14 +50,16 @@ Specifically, the content of your presentation presentation should:
 
 ---
 
-### Suggested Ways to Get Started
+## Suggested Ways to Get Started
 
 - Work backwards to consider what your audience values and needs to know
 - Don't just assume that your explanations are clear - test your results on others and see what makes sense!
 - Include more visuals (and less text) than you think.
 - Don't just read your presentation - deliver it!
 
-### Useful Resources
+---
+
+## Useful Resources
 
 - [Best Practices for Visualization ](https://drive.google.com/file/d/0Bx2SHQGVqWasWUpNX28yMTVuS1U/view?usp=sharing)
 - [Importance of Storytelling w Data - Tableau Whitepaper](https://drive.google.com/file/d/0Bx2SHQGVqWasTmhYM1FHX3JfNEU/view?usp=sharing)
@@ -64,17 +67,14 @@ Specifically, the content of your presentation presentation should:
 
 ---
 
-### Project Feedback + Evaluation
+## Project Feedback + Evaluation
 
-[Attached here is a complete rubric for this project.](./part-05-rubric.md)
+[Attached here is a complete rubric for this project.](./capstone-part-05-rubric.md)
 
 Your instructors will score each of your technical requirements using the scale below:
 
-    Score | Expectations
-    ----- | ------------
-    **0** | _Incomplete._
-    **1** | _Does not meet expectations._
-    **2** | _Meets expectations, good job!_
-    **3** | _Exceeds expectations, you wonderful creature, you!_
-
- This will serve as a helpful overall gauge of whether you met the project goals, but __the more important scores are the individual ones__ above, which can help you identify where to focus your efforts for the next project!
+Score  | Expectations
+--- | ---
+**0** | _Incomplete._
+**1** | _Does not meet expectations._
+**2** | _Meets expectations, good job!_
