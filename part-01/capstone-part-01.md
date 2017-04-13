@@ -45,11 +45,11 @@ Prepare a slide deck and host a 3-5 minute lightning talk on 2-3 potential topic
 - What does success look like? How will I know if my model performs well?
 - Where will I find data for this project? Is the data available?
 
-**Bonus:**
+**For the Bonus, Ask:**
 - What format is the data in? What specific steps do I need to take to access it?
 - How will I explain this project to outside audiences?
 
-**Tips:**
+**Other Tips:**
 - For your 1st potential topic, start with an idea, then look for potential data that could be used to support that idea.
 - For your 2nd potential topic, reverse the process; look for interesting data and then extrapolate problems it could solve and audiences it could impact.
 
