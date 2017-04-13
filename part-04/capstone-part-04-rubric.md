@@ -13,9 +13,9 @@ Acceptable performance for these standards is based on how well you've performed
 ---
 
 ## Performance Evaluation
-> Instructors: Mark boxes with an `X` or `n/a` if a score does not apply. Grades and indiviual feedback are only necessary for **"required"** sections; bonus objectives are intended for student enrichment.
+> Instructors: Mark boxes with an `X` or `n/a` if a score does not apply. Grades and indiviual feedback are only necessary for **"Required"** sections; bonus objectives are intended for student enrichment.
 
-#### Rubric
+#### RUBRIC
 Score  | Expectations
 --- | ---
 **0** | _Incomplete._
