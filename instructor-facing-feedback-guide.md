@@ -99,7 +99,9 @@ In preparing qualitative feedback for students, consider how well students perfo
 
 Additionally, each unit project's description includes a **"Requirements" rubric**, which lists the competencies students are expected to demonstrate in their work. Based on your diagnostic review of their submission, use this rubric to assign a point value for each item.
 
-For example, Unit Project 1 might ask students to demonstrate:
+#### EXAMPLE
+
+For example, the Unit Project 1 might ask students to demonstrate:
 
   - Command of basic Python data structures
   - Command of basic Python syntax and control log
@@ -113,6 +115,15 @@ Score  | Expectations
 **1** | _Does not meet expectations._
 **2** | _Meets expectations, good job!_
 
+This becomes:
+
+  - Command of basic Python data structures  - **SCORE + COMMENT**
+  - Command of basic Python syntax and control log  - **SCORE + COMMENT**
+  - Comfort with calculating basic descriptive statistics - **SCORE + COMMENT**
+
+**TOTAL SCORE + OVERALL COMMENTS**
+
+---
 
 ### Capstone Project Grading
 
@@ -120,47 +131,33 @@ Capstone projects do not use the same tiered challenge structure as the unit pro
 
 As before, you are only responsible for scoring and providing feedback on any "Required" sections. Assign a relative score to the numbered portions, and then fill in any qualitative feedback on the student's work.
 
+#### EXAMPLE
+
 For example, in Capstone Part 1, the "Required" portion asks students to:
 
 1. Prepare a slide deck and host a 3-5 minute lightning talk on **at least two** potential topics for your DSI capstone project. For each topic, define all required areas:
 
-2. Topic 1:
+2. Topic 1 (etc):
    - Problem Statement
    - Potential Audience 
    - Goals
    - Success Metrics
    - Data Source(s)
-   
-3. Topic 2:
-   - Problem Statement
-   - Potential Audience 
-   - Goals
-   - Success Metrics
-   - Data Source(s)
-  
-Instructors should use their best judgement to *score* each of these numbered requirements using the GA rubric:
 
-Score  | Expectations
---- | ---
+Instructors should use their best judgement to **score** each of these *numbered requirements* using the GA rubric:
+
+Score | Expectations
+:--- | :---
 **0** | _Incomplete._
 **1** | _Does not meet expectations._
 **2** | _Meets expectations, good job!_
 
-
-#### Example
+Which Becomes:
 
 1. Prepare a slide deck and host a 3-5 minute lightning talk on **at least two** potential topics for your DSI capstone project. 
 **SCORE** (+ **COMMENT** as needed)
 
-For each topic, define all required areas:
 2. Topic 1: **SCORE**
-   - Problem Statement: **COMMENT**
-   - Potential Audience: **COMMENT**
-   - Goals: **COMMENT**
-   - Success Metrics: **COMMENT**
-   - Data Source(s): **COMMENT**
-   
-3. Topic 2: **SCORE**
    - Problem Statement: **COMMENT**
    - Potential Audience: **COMMENT**
    - Goals: **COMMENT**
@@ -169,8 +166,9 @@ For each topic, define all required areas:
    
 **TOTAL SCORE** + **OVERALL COMMENTS**
 
+---
 
-### Standards
+### Capstone Project Standards
 For capstone deliverables, instructors may also find it helpful to structure their evaluation by reviewing the student's performance against the suggested standards included from our DSI data science workflow:
 
 - [ ] Identify Problem
