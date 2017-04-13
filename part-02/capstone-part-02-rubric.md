@@ -22,7 +22,7 @@ Score  | Expectations
 **2** | _Meets expectations, good job!_
 
 
-#### REQUIREMENTS
+#### REQUIRED
 1. Find and Clean Your Data: Source and format the required data for your project. 
    - Create a database
    - Create a data dictionary
