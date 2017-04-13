@@ -14,17 +14,18 @@ This deliverable will provide you with guidance to help you select an awesome to
 
 ## Requirements
 
-Prepare a slide deck and host a 3-5 minute lightning talk on 2-3 potential topics for your DSI capstone project. For each topic, define:
+1. Prepare a slide deck and host a 3-5 minute lightning talk on **2-3** potential topics for your DSI capstone project. **For each topic**, you'll need to define:
 
-- Problem Statement
-- Potential Audience 
-- Goals
-- Success Metrics
-- Possible Data Sources
+   - Problem Statement
+   - Potential Audience 
+   - Goals
+   - Success Metrics
+   - Data Source(s)
 
 #### Bonus:
- - For all datasets, identify their source, format, and necessary action items to obtain or access them.
- - Create a blog post of at least 500 words (and 1-2 graphics!) that describes your project idea, data, and audience. Link to it in your presentation appendix.
+
+2. For all datasets, identify their source, format, and necessary action items to obtain or access them.
+3. Create a blog post of at least 500 words (and 1-2 graphics!) that describes your project idea, data, and audience. Link to it in your presentation appendix.
  
  ***Remember, if you can't find data to support your topic, then you can't move forward.***
 
