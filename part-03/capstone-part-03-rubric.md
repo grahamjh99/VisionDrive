@@ -1,63 +1,54 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) CAPSTONE PART 3 RUBRIC
-Data Science Immersive | Capstone Project 3							
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) CAPSTONE, PART 3: RUBRIC
 
-Your project will be assessed using the following standards, [derived from the data science workflow](../../../../resources/syllabus/DSI-workflow-v1.pdf):
+## Data Science Immersive | Capstone, Part 3		
+Your project criteria were derived from the following standards, taken from our data science workflow:
 
 - [ ] Mine Data
 - [ ] Refine Data
 - [ ] Model Data
-- [ ] Present Data
-- [ ] *Professional Development*
 
 Acceptable performance for these standards is based on how well you've performed the specific requirements listed below.
 
 ---
 
-### Performance Evaluation
-> Instructors: Mark boxes with 'X' or "n/a" if a section does not apply. Note that "Exceeds Expectations" (3pts) is really only applicable for student writeups or specially marked "*Bonus*" Options.
+## Performance Evaluation
+> Instructors: Mark boxes with an `X` or `n/a` if a score does not apply. Grades and indiviual feedback are only necessary for **"required"** sections; bonus objectives are intended for student enrichment.
 
-| Requirements | Incomplete (0) | Does Not Meet Expectations (1) | Meets Expectations (2) | Exceeds Expectations (3) |
-|---|---|---|---|---|
-| Mine: Correlate data & run statistical analysis | | | | n/a |
-| Refine: Plot data w visual analysis | | | | *Bonus: Use 2 or more dataviz tools* |
-| Model: Run model on data (train subset as needed)| | | | n/a |
-| Present: Summarize approach & initial results | | | | |
-| Present: Describe successes, setbacks, & lessons learned | | | | |
-| *Bonus! Present: Create blog post summary* | | | | |
+#### Rubric
+Score  | Expectations
+--- | ---
+**0** | _Incomplete._
+**1** | _Does not meet expectations._
+**2** | _Meets expectations, good job!_
 
-- **Section Sub-Score**: ___ out of 16 points possible.
-- Notes:
 
----
+#### Requirements
+1. Create a "progress report" that documents:
+   - Your approach to exploratory data analysis
+   - Your initial results
+   - Any roadblocks, setbacks, or surprises
+   
+2. Perform initial descriptive and visual analysis of your data.
+   - Identify outliers
+   - Summarize risks and limitations 
 
-## PROFESSIONAL DEVELOPMENT
-> Instructors: This category should only be used mid-way through the course as a means of assessing student personal and professional conduct, including adherence to the GA Code of Conduct, participation in outcomes, and general class conduct.
+3. Discuss your proposed next steps
+   - Describe how your EDA will inform your modeling decisions
+   - What are three concrete actions you need to take next?
 
-Demonstrate the ability to successfully communicate and collaborate with others in the classroom and within teams. Treat your peers, teammates, & instructors with respect. You make and follow agreements, and maintain a growth mindset.
 
-#### Performance Evaluation
-> Instructors: Mark boxes with 'X' or "n/a" if a section does not apply. Note that "Exceeds Expectations" (3pts) is really only applicable for student writeups or specially marked "*Bonus*" Options.
-
-| Criteria | Incomplete (0) | Does Not Meet Expectations (1) | Meets Expectations (2) | Exceeds Expectations (3) |
-|---|---|---|---|---|
-| Are you present both mentally and physically in class and/or during team meetings? | | | | |
-| Do you effectively communicate your work, progress, availability and expectations to your instructor, classmates and/or teammates? | | | | |
-| Are you meeting all required deadlines for your deliverables? | | | | |
-| Do you organize your project materials in a structured, easily navigable manner? | | | | |
-| Do you respond well to constructive feedback? Are you implementing suggested improvements? | | | | |
-| *Optional*: Are you resolving conflict in a professional and respectful manner? | | | | |
-
-- **Section Sub-Score**: ___ out of 18 points possible.
-- Notes:
-
----
+#### BONUS
+4. Visualize your EDA and approach using at least **two or more** of the data visualizations methods we've covered in class.
+5. Create a blog post of at least 500 words explaining your EDA so far, including your results, setbacks, and lessons learned. Link to this in your notebook.
 
 ## Score:
-Based on the requirements, you can earn a maximum of  **34**  points on this project. Your score is: **#**
+Based on the requirements, it is possible to earn a maximum of  **X**  points on this project. Your score is: **X**
 
-- Remember, your total score is helpful as a gauge of how well you met the project requirements, but use the individual standards and instructor feedback to help iterate and improve on your projects!
+- Remember, total scores are helpful as an indicator of how well you followed project instructions, but the most important feedback is to follow up on any actionable advice from your instructors for improving your project in the future!
 
 ---
+
+> Note: The following section is an optional format for providing feedback on a student's overall progress in the course. Use of this format may vary by market; check with your local instructional team for more details.
 
 ## PROGRESS REPORT
 **Student Check-in:**
