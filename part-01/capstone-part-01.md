@@ -64,7 +64,7 @@ Tips:
 
 ## Project Feedback + Evaluation
 
-[Attached here is a complete rubric for this project.](./part-01-rubric.md)
+[Attached here is a complete rubric for this project.](../part-01-rubric.md)
 
 Your instructors will score each of your technical requirements using the scale below:
 
