@@ -8,7 +8,7 @@ One of the best ways to test ideas quickly is to share them with others. A good 
 
 This deliverable will provide you with guidance to help you select an awesome topic and begin to build a polished Capstone project. 
 
-**Goal**: Host a lightning talk presentation describing at least two proposed project ideas and associated data, goals, audiences, and metrics.
+**Goal**: Host a lightning talk presentation describing at least two project proposals, including associated data, goals, audiences, and metrics.
 
 ---
 
@@ -38,33 +38,33 @@ Prepare a slide deck and host a 3-5 minute lightning talk on 2-3 potential topic
 
 ## Suggested Ways to Get Started
 
-Ask:
+**Begin by Asking:**
 - What is the scope of the need or problem I wish to investigate?
 - Who is this for? Who is impacted or affected by this data? Who would benefit from this model?
 - What are my goals for this investigation?
 - What does success look like? How will I know if my model performs well?
 - Where will I find data for this project? Is the data available?
 
-Bonus:
+**Bonus:**
 - What format is the data in? What specific steps do I need to take to access it?
 - How will I explain this project to outside audiences?
 
-Tips:
-- For your first potential topic, start with an idea, then look for potential data that could be used to support that idea.
-- For your next potential topic, reverse the process; look for interesting data and then extrapolate problems it could solve and audiences it could impact.
+**Tips:**
+- For your 1st potential topic, start with an idea, then look for potential data that could be used to support that idea.
+- For your 2nd potential topic, reverse the process; look for interesting data and then extrapolate problems it could solve and audiences it could impact.
 
 ---
 
 ## Useful Resources
 
-- [How to find the data you need](http://flowingdata.com/2009/10/01/30-resources-to-find-the-data-you-need/)
-- [How to give a good lightning talk](https://www.semrush.com/blog/16-ways-to-prepare-for-a-lightning-talk/)
+- [How to find the data you need.](http://flowingdata.com/2009/10/01/30-resources-to-find-the-data-you-need/)
+- [How to give a good lightning talk.](https://www.semrush.com/blog/16-ways-to-prepare-for-a-lightning-talk/)
 
 ---
 
 ## Project Feedback + Evaluation
 
-[Attached here is a complete rubric for this project.](../part-01-rubric.md)
+[Attached here is a complete rubric for this project.](./capstone-part-01-rubric.md)
 
 Your instructors will score each of your technical requirements using the scale below:
 
