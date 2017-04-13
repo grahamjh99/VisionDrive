@@ -2,49 +2,50 @@
 
 ## Overview
 
-This will be an overview of your approach with a well-articulated summary that includes your problem statement, outlines your proposed methods and models, defines any risks & assumptions, and includes any revisions from your initial goals & criteria, as needed.
+Based on the feedback you received from your lightning talk, choose **one** of your topic areas to move forward. For Part 2, you'll need to collect the dataset(s) you intend to use for your project.
 
-In addition, you'll want to create a local database for your data, import and clean your data. You'll want to describe and create a data dictionary for your dataset(s), and perform your initial exploratory data analysis.
+This is not always a trivial task. Remember that data acquisition, transformation, and cleaning are typically the most time-consuming parts of data science projects, so don’t procrastinate!
 
-**Goal**: A summary notebook outlining your project's goals, methods, models, and EDA.
+Once you have your data, read into it and review it to confirm whether it is as productive as you intended. If not, switch datasets, gather additional data (e.g. multiple datasets), or revise your project goals. Finally, document your chosen topic criteria and work so far.
+
+**Goal**: Find the data you need for your project, read into it, and document your chosen topic.
 
 ---
 
 ## Requirements
 
-Your work must:
+1. Find and Clean Your Data: Source and format the required data for your project. 
+ - Create a local database
+ - Create a data dictionary
+2. Perform preliminary data munging and cleaning of the data relevant to your project goals. 
+ - Review data to verify initial assumptions
+ - Clean and munge data as necessary
+3. Describe your data, keeping the intended audience of your final report in mind.
+ - Document your work so far in a Jupyter notebook. 
 
-- Articulate “Specific aim”
-- Outline proposed methods and models
-- Define risks & assumptions
-- Revise initial goals & success criteria, as needed
-- Create local database
-- Describe data cleaning/munging techniques
-- Create a data dictionary
-- Perform & summarize EDA
+#### Bonus
 
-- ***Bonus:***
- - Explain how you intend to evaluate your results. What tuning metric and evaluation approaches do you intend to use?
- - Identify 1-2 additional datasets that may help you triangulate your findings. How might these relate to your data?
- - Create a blog post of at least 500 words (and 1-2 graphics!) that describes your assumptions and processes for EDA. Link to it in your Jupyter notebook.
+4. Document your project goals (revise from your initial pitch)
+ - Articulate “Specific aim”
+ - Outline proposed methods and models
+ - Define risks & assumptions
+
+5. Create a blog post of at least 500 words that describes your work so far. Link to it in your Jupyter notebook.
 
 ---
 
 ## Deliverable Format & Submission
 
- - Materials must be submitted in a clearly labeled Jupyter notebook, including:
-  - Markdown writeups, code, and visualizations
- - Materials must be submitted via a Github PR to the instructor's repo.
- - Materials must be submitted by the end of Week 8.
+- Table, file, or database with relevant text file or notebook description.
 
 ---
 
 ## Suggested Ways to Get Started
 
-- Don’t hesitate to write throwaway code to solve short term problems
-- Read the docs for whatever technologies you use. Most of the time, there is a tutorial that you can follow, but not always, and learning to read documentation is crucial to your success!
-- Write pseudocode before you write actual code. Thinking through the logic of something helps.  
-- Document **everything**.
+- Review your initial proposal topic and feedback, and revise accordingly. 
+- Spend time with your data and verify that it can help you accomplish the goals you set out to pursue. 
+- If not, document how you intend to either change those goals. 
+- Alternatively, go find some additional data and/or try another source.
 
 ---
 
