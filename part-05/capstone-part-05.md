@@ -1,59 +1,63 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Part 5: Presentation + Non-Technical Summary
 
-
 ## Overview
 
-This is it! You've made it to the finish line. Now that you've finished cleaning, modeling, and tuning your data, you'll need to present your results. Whether during an interview or as part of a job, you will frequently have to present your findings to business partners and other interested parties - many of whom won't know anything about data science!
+Whether during an interview or as part of a job, you will frequently have to present your findings to business partners and other interested parties - many of whom won't know anything about data science! 
 
-That's why for Part 5, you'll create a 10-15 minute presentation that delivers the most important insights from your project to a potential audience of non-technical stakeholders. You've already done the analytical work, so now it's time to explain your findings for others.
+That's why for Part 5, you'll create a 5-10 minute presentation that delivers the most important insights from your project to a lay audience. You've already done the analytical work; now it's time to explain your findings to the public.
 
-Come up with a detailed slide deck that explains your data, visualizes your model, describes your approach, articulates strengths and weaknesses, and presents specific recommendations. Make sure to review your goals, assumptions, and limitations, and convey your work with visualizations, graphics, and storytelling techniques. You'll also want to include an appendix that summarizes the more technical aspects of your work.
+Take your findings and share the most important insights from your project to a non-technical audience. Tell us the most interesting story about your data. Break down your process for a novice audience. Make sure to include compelling visuals. Time is short, so be sure to practice - and include only the most relevant components of your project.
 
-Finally, be prepared to explain and defend your model to an inquisitive audience!
+Finally, be prepared to answer questions and explain your choices to an inquisitive audience!
 
-**Goal:** A public presentation of your project, including an explanation of your model and findings for non-technical audiences.
+**Goal:** A public presentation of your project, including an explanation of your model and findings for a non-technical audience.
 
 ---
 
-## Requirements
+## REQUIREMENTS
 
-Your presentation must:
+1. Host a 5-10 minute well-rehearsed presentation of your project for a non-technical audience.
+   - Define technical terms and any basic data science concepts that inform your approach
+   - Don't just deliver the information; tell a story about the problem and solution
 
-- Describe your project in a 10-15 minute presentation
-- Use visuals, graphics, & storytelling techniques
-- Answer audience questions about your data, model, and findings
+2. Prepare polished visuals or a publicly-suitable slide deck to guide your presentation. 
+   - Include graphs and/or visualizations
 
-Specifically, the content of your presentation presentation should:
-- Review your topic and problem statement
-- Define your goals and success metrics
-- Discuss your analysis and modeling approach in layman's terms
-- Clarify any assumptions and model limitations
-- Present insights and findings from your data
-- Create audience-tailored recommendations based on your findings
-- Include a technical appendix
+3. Make sure you cover the following areas:
+   - Goals
+   - Success Criteria / Metrics
+   - Data
+   - Overall Approach
+   - Basic description of model
+   - Findings
+   - Risks/Limitations
+   - Impact, next steps, conclusions
+   
+4. Successfully answer questions about your project from your audience.
 
+#### BONUS
 
-- ***Bonus:***
+5. Discuss longer term potential of your project and model.
+   - Describe how you could validate your model's performance over time
+   - Explain how you would deploy your model in a production environment
 
- - Create an interactive demo of your data
- - Describe how you could validate your model's performance over time
- - Explain how you would deploy your model in a production environment
- - Share or adapt your presentation materials into a final blog post that describes your goals, criteria, model, findings, and recommendations for a non-technical audience. Link to it in your presentation appendix.
+6. Create a publicly hosted interactive visualization that your audience can use to further access and explore your data and findings.
+   - Bonus points for embedding this into your blog post tutorial!
 
 ---
 
 ## Deliverable Format & Submission
 
-- A slide deck (or interactive demo) presentation of 10-15 minutes, including:
-  - Requirements listed above + relevant visuals
-- Presentations should be prepared for the end of Week 12.
+- Format: Interactive graphic presentation, website, or slide deck.
+- Public presentation of at least 5-10 minutes, with another 5 minutes of questions.
 
 ---
 
 ## Suggested Ways to Get Started
 
-- Work backwards to consider what your audience values and needs to know
-- Don't just assume that your explanations are clear - test your results on others and see what makes sense!
+- Review the information you provided in the "Exective Summary" from Part 4. This is the same information you should cover here.
+- The difference is that you should **not** assume that your audience knows anything about your problem, model, or basic data science. Structure your presentation as if explaining your model to a non-data science friend.
+- Practice! Test your presentation on other GA students or friends and see where they have questions.
 - Include more visuals (and less text) than you think.
 - Don't just read your presentation - deliver it!
 
