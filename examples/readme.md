@@ -6,3 +6,7 @@ Here you can find a curated list of sample student capstone projects from across
 
 
 ## Examples
+
+Market  | Topic Area  | Description    
+--------- | ---------  | ---------  | 
+| Example 1 | Example 1 | Example 1 |
