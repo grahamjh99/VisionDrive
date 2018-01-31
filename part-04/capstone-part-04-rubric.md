@@ -13,15 +13,16 @@ Acceptable performance for these standards is based on how well you've performed
 ---
 
 ## Performance Evaluation
-> Instructors: Mark sections with an `X` or `n/a` if a score does not apply. Grades and indiviual feedback are only necessary for **"Required"** sections; bonus objectives are primarily intended for student enrichment.
+> Instructors: Mark sections with an `X` or `n/a` if a score does not apply. Grades and indiviual feedback are only necessary for numbered **"Required"** sections; bonus objectives are primarily intended for student enrichment.
 
 #### RUBRIC
-Score  | Expectations
---- | ---
+
+Score | Expectations
+:--- | :---
 **0** | _Incomplete._
 **1** | _Does not meet expectations._
-**2** | _Meets expectations, good job!_
-
+**2** | _Meets all expectations._
+**3** | _Bonus: Surpasses expectations; amazing!_
 
 #### REQUIRED
 1. Begin with an executive summary:
