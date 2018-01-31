@@ -73,12 +73,15 @@ Finally, be prepared to answer questions and explain your choices to an inquisit
 
 ## Project Feedback + Evaluation
 
-[Attached here is a complete rubric for this project.](./capstone-part-05-rubric.md)
+All projects have *requirements* that are clearly listed. These numbered requirements **must be completed** in order to "pass" the project. For each numbered item, you will be evaluated on a simple point scale of 0, 1, or 2. 
 
-Your instructors will score each of your technical requirements using the scale below:
+> In special cases, instructors may decide to award an additional point if a submission surpasses expectations or completes bonus objectives. 
 
-Score  | Expectations
---- | ---
+Score | Expectations
+:--- | :---
 **0** | _Incomplete._
 **1** | _Does not meet expectations._
-**2** | _Meets expectations, good job!_
+**2** | _Meets all expectations._
+**3** | _Bonus: Surpasses expectations; amazing!_
+
+[Attached here is a complete rubric for this project.](./capstone-part-05-rubric.md)
