@@ -83,7 +83,6 @@ Score | Expectations
 **2** | _Meets all expectations._
 **3** | _Bonus: Surpasses expectations; amazing!_
 
-
 ---
 
 <a id='types'></a>
@@ -111,11 +110,13 @@ For example, the Unit Project 1 might ask students to demonstrate:
 
 Using our scale of 0-2, you would input scores for each line, resulting in an overall total for that student's project.
 
-Score  | Expectations
---- | ---
+
+Score | Expectations
+:--- | :---
 **0** | _Incomplete._
 **1** | _Does not meet expectations._
-**2** | _Meets expectations, good job!_
+**2** | _Meets all expectations._
+**3** | _Bonus: Surpasses expectations; amazing!_
 
 This becomes:
 
@@ -152,7 +153,8 @@ Score | Expectations
 :--- | :---
 **0** | _Incomplete._
 **1** | _Does not meet expectations._
-**2** | _Meets expectations, good job!_
+**2** | _Meets all expectations._
+**3** | _Bonus: Surpasses expectations; amazing!_
 
 Which Becomes:
 
@@ -214,6 +216,17 @@ Project feedback can be delivered in many ways. For example, instructors can use
 
 Students should use this time to review their project evaluation or walk through a guided code review (e.g. ask them to explain and debug sections of their code, in order to confirm that they understand how it works).
 
+### Tips for Providing Project Feedback
+
+- Provide precise praise
+- Identify at least one action step for improvement
+- Give context as to why that action step is important
+- End with a targeted question related to the action step, that tests whether the student has understood your feedback.
+
+  - **Good Example**: "Great work! Your code is well organized. Good use of breaking tasks into separate functions. I see that in your app.js file you used the variable name x on line 84. Consider using more descriptive variable names. As a code reviewer, this would jump out at me. I want to know what every variable contains just by looking at the variable name itself. I do see some other descriptive variables! If we were to refactor this code, what would you want to rename x on line 84?"
+
+  - **Poor Example**: "Great Work! You’re doing a good job with all this. Do you have any questions about anything?"
+
 
 ### Project Feedback Template
 
@@ -253,7 +266,7 @@ Below are two examples of feedback on a project asking students to do EDA on Bil
 
 Requirement | Score
 ----- | ------------
-**Understand and explain the dataset** | 2
+**Understand and explain the dataset** | 3!
 **Plot, visualize and interpret your results** | 1
 **Formulate and test hypotheses** | 1
 **Total scores (out of 6 possible)** | 4
@@ -261,7 +274,9 @@ Requirement | Score
 
 ### Example 2:
 
-- *Great work on this. Definitely went down a good path. Your visualizations are excellent, and are sequenced in a clear, logical way; I love the labeling on the stacked barchart of songs in Top 100 / Top 1. However, it looks like you missed identifying some of the risks in the dataset (small sample, limited time period). On the other hand, your comments made it easy to follow your code.*
+- *Great work on this. Definitely went down a good path. Your visualizations are excellent, and are sequenced in a clear, logical way; I love the labeling on the stacked barchart of songs in Top 100 / Top 1. You fulfilled one of our bonus criteria as well - great work!
+
+- However, it looks like you missed identifying some of the risks in the dataset (small sample, limited time period). On the other hand, your comments made it easy to follow your code.*
 
 - *You should build on this work by more explicitly suggesting some next steps. E.g. it would be interesting if you argued for/against combining the Rock and Rock 'n Roll categories, based on a qualitative assessment in addition to your quantitative assessment of their performance patterns.*
 
@@ -271,18 +286,5 @@ Requirement | Score
 **Plot, visualize and interpret your results** | 2
 **Formulate and test hypotheses** | 2
 **Total scores (out of 6 possible)** | 5
-
-
-
-### More Tips for Providing Project Feedback
-
-- Provide precise praise
-- Identify at least one action step for improvement
-- Give context as to why that action step is important
-- End with a targeted question related to the action step, that tests whether the student has understood your feedback.
-
-  - **Good Example**: "Great work! Your code is well organized. Good use of breaking tasks into separate functions. I see that in your app.js file you used the variable name x on line 84. Consider using more descriptive variable names. As a code reviewer, this would jump out at me. I want to know what every variable contains just by looking at the variable name itself. I do see some other descriptive variables! If we were to refactor this code, what would you want to rename x on line 84?"
-
-  - **Poor Example**: "Great Work! You’re doing a good job with all this. Do you have any questions about anything?"
 
 ---
