@@ -108,7 +108,7 @@ For example, the Unit Project 1 might ask students to demonstrate:
   - Command of basic Python syntax and control log
   - Comfort with calculating basic descriptive statistics
 
-Using our scale of 0-2, you would input scores for each line, resulting in an overall total for that student's project.
+Using our scale of 0-2 (or 3 for a bonus), you would input scores for each line, resulting in an overall total for that student's project.
 
 
 Score | Expectations
