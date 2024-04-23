@@ -65,7 +65,7 @@ This deliverable will provide you with guidance to help you select an awesome to
 
 ## Useful Resources
 
-- [How to find the data you need.](http://flowingdata.com/2009/10/01/30-resources-to-find-the-data-you-need/)
+- [How to find the data you need.](https://github.com/awesomedata/awesome-public-datasets)
 - [How to give a good lightning talk.](https://www.semrush.com/blog/16-ways-to-prepare-for-a-lightning-talk/)
 
 ---
