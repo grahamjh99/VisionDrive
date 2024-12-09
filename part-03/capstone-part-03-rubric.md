@@ -1,6 +1,6 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) CAPSTONE, PART 3: RUBRIC
 
-## Data Science Immersive | Capstone, Part 2			
+## Data Science Immersive | Capstone, Part 3			
 Your project criteria were derived from the following standards, taken from our data science workflow:
 
 - [ ] Define Problem
