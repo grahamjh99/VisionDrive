@@ -13,37 +13,37 @@ Include any additional code, data, or other materials in appendices, as needed. 
 
 ---
 
-## Requirements
+#### REQUIRED
 1. Begin with an executive summary:
    - What is your goal?
    - What are your metrics?
    - What were your findings?
    - What risks/limitations/assumptions affect these findings?
    
-2. Walk through your model step by step, starting with EDA
+2. Walk through your model step by step, starting with EDA.
    - What are your variables of interest?
    - What outliers did you remove?
    - What types of data imputation did you perform?
 
-3. Summarize your statistical analysis, including:
+3. Summarize your analysis, including:
    - model selection
    - implementation
    - evaluation
-   - inference
+   - prediction/inference
 
 4. Clearly document and label each section
-   - Logically organize your information in a persuasive, informative manner
-   - Include notebook headers and subheaders, as well as clearly formatted markdown for all written components
-   - Include graphs/plots/visualizations with clear labels
-   - Comment and explain the purpose of each major section/subsection of your code
-     - *Document your code for your future self, as if another person needed to replicate your approach*
+   - Logically organize your information in a persuasive, informative manner.
+   - Include notebook headers and subheaders, as well as clearly formatted markdown for all written components.
+   - Include graphs/plots/visualizations with clear labels.
+   - Comment and explain the purpose of each major section/subsection of your code.
+       - *Document your code for your future self, as if another person needed to replicate your approach*
 
-5. Host your notebook and any other materials in your own public Github Repository
-   - Include a technical appendix, inlcuding links and explanations to any outside libraries or source code used
-   - Host a local copy of your dataset or include a link to a remotely hosted version
+5. Host your notebook and any other materials in your own public Github Repository.
+   - Include a technical appendix, inlcuding links and explanations to any outside libraries or source code used.
+   - Host a local copy of your dataset or include a link to a remotely hosted version.
 
 #### BONUS
-6. Describe how this model could be put into real world production. Consider:
+6. Describe how this model could be put into production. Consider:
    - How could you continue to validate your model's performance over time?
    - What steps might you need to take to productionize your model for an enterprise environment?
    - How would you deploy your model publicly? What could you do to setup your model and share it online right now?
