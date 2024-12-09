@@ -47,8 +47,7 @@ Finally, be prepared to answer questions and explain your choices to an inquisit
 
 ## Deliverable Format & Submission
 
-- Format: Interactive graphic presentation, website, or slide deck.
-- Public presentation of 13-17 minutes, with another 5 minutes of questions.
+- Format: Public presentation of 13-17 minutes, plus 5 minutes of questions. Presentation should include interactive graphics, website, and/or slide deck.
 
 ---
 
