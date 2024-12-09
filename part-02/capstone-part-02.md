@@ -60,15 +60,14 @@ Create your own database and data dictionary, then clean and munge your data as 
 
 ## Project Feedback + Evaluation
 
-All projects have *requirements* that are clearly listed. These numbered requirements **must be completed** in order to "pass" the project. For each numbered item, you will be evaluated on a simple point scale of 0, 1, or 2. 
+You will be evaluated on the requirements above using the below rubric.
 
-> In special cases, instructors may decide to award an additional point if a submission surpasses expectations or completes bonus objectives. 
-
-Score | Expectations
-:--- | :---
-**0** | _Incomplete._
-**1** | _Does not meet expectations._
-**2** | _Meets all expectations._
-**3** | _Bonus: Surpasses expectations; amazing!_
+#### RUBRIC
+| Score | Interpretation |
+| --- | --- |
+| **0** | *Project fails to meet the minimum requirements for this item.* |
+| **1** | *Project meets the minimum requirements for this item, but falls significantly short of portfolio-ready expectations.* |
+| **2** | *Project exceeds the minimum requirements for this item, but falls short of portfolio-ready expectations.* |
+| **3** | *Project meets or exceeds portfolio-ready expectations; demonstrates a thorough understanding of every outlined consideration.* |
 
 [Attached here is a complete rubric for this project.](./capstone-part-02-rubric.md)
