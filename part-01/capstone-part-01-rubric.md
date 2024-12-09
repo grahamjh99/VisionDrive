@@ -22,7 +22,7 @@ Acceptable performance for these standards is based on how well you've performed
 
 
 #### REQUIRED
-1. Prepare a slide deck and host a 3-5 minute lightning talk on **at least two** potential topics for your DSI capstone project. For each topic, define **all** required areas:
+1. Prepare a slide deck and host a 3-4 minute lightning talk on **at least two** potential topics for your DSI capstone project. For each topic, define **all** required areas:
 
 2. Topic 1
    - Problem Statement
