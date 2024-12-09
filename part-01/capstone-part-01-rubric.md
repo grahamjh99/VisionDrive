@@ -3,25 +3,22 @@
 ## Data Science Immersive | Capstone, Part 1			
 Your project criteria were derived from the following standards, taken from our data science workflow:
 
-- [ ] Identify Problem
-- [ ] Acquire Data
-- [ ] Present Data
+- [ ] Define Problem
+- [ ] Gather Data
 
 Acceptable performance for these standards is based on how well you've performed the specific requirements listed below.
 
 ---
 
 ## Performance Evaluation
-> Instructors: Mark sections with an `X` or `n/a` if a score does not apply. Grades and indiviual feedback are only necessary for numbered **"Required"** sections; bonus objectives are primarily intended for student enrichment.
 
 #### RUBRIC
-
-Score | Expectations
-:--- | :---
-**0** | _Incomplete._
-**1** | _Does not meet expectations._
-**2** | _Meets all expectations._
-**3** | _Bonus: Surpasses expectations; amazing!_
+| Score | Interpretation |
+| --- | --- |
+| **0** | *Project fails to meet the minimum requirements for this item.* |
+| **1** | *Project meets the minimum requirements for this item, but falls significantly short of portfolio-ready expectations.* |
+| **2** | *Project exceeds the minimum requirements for this item, but falls short of portfolio-ready expectations.* |
+| **3** | *Project meets or exceeds portfolio-ready expectations; demonstrates a thorough understanding of every outlined consideration.* |
 
 
 #### REQUIRED
@@ -32,35 +29,18 @@ Score | Expectations
    - Potential Audience 
    - Goals
    - Success Metrics
-   - Data Source(s)
+   - Data Source(s) _(subject to change)_
    
 3. Topic 2
    - Problem Statement
    - Potential Audience 
    - Goals
    - Success Metrics
-   - Data Source(s)
+   - Data Source(s) _(subject to change)_
 
 #### BONUS
 4. Beyond the two required topics, what other potential topics might you explore?
 5. For all datasets, identify their source, format, and necessary action items to obtain or access them.
 6. Create a blog post of at least 500 words (and 1-2 graphics!) that describes your project idea, data, and audience. Link to it in your presentation appendix.
 
-
 ---
-
-## Score:
-Based on the requirements, it is possible to earn a maximum of  **X**  points on this project. Your score is: **X**
-
-- Remember, total scores are helpful as an indicator of how well you followed project instructions, but the most important feedback is to follow up on any actionable advice from your instructors for improving your project in the future!
-
----
-
-> Note: The following section is an optional format for providing feedback on a student's overall progress in the course. Use of this format may vary by market; check with your local instructional team for more details.
-
-## PROGRESS REPORT
-**Student Check-in:**
-
-|WHAT’S GOING WELL?|STRUGGLES|DEVELOPMENT PLAN|
-|---|---|---|
-| | | |
