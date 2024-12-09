@@ -12,22 +12,22 @@ This deliverable will provide you with guidance to help you select an awesome to
 
 ---
 
-## Requirements
-1. Prepare a slide deck and host a 3-5 minute lightning talk on **at least two** potential topics for your DSI capstone project. For each topic, define **all** required areas:
+#### REQUIRED
+1. Prepare a slide deck and host a 3-4 minute lightning talk on **at least two** potential topics for your DSI capstone project. For each topic, define **all** required areas:
 
 2. Topic 1
    - Problem Statement
    - Potential Audience 
    - Goals
    - Success Metrics
-   - Data Source(s)
+   - Data Source(s) _(subject to change)_
    
 3. Topic 2
    - Problem Statement
    - Potential Audience 
    - Goals
    - Success Metrics
-   - Data Source(s)
+   - Data Source(s) _(subject to change)_
 
 #### BONUS
 4. Beyond the two required topics, what other potential topics might you explore? (e.g. 3 or more)
