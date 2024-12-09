@@ -72,7 +72,7 @@ Format: Jupyter Notebook
 ## Useful Resources
 
 - [How to Report Statistics to Technical Audiences](http://abacus.bates.edu/~ganderso/biology/resources/writing/HTWstats.html)
-- [Data Science Employers Value Research Reports](https://www.quora.com/What-is-a-good-way-for-a-data-scientist-to-construct-an-online-portfolio)
+- [Data Science Employers Value Research Reports](https://sentiance.com/data-scientist)
 
 ---
 
