@@ -61,7 +61,7 @@ Format: Jupyter Notebook
 
 ## Suggested Ways to Get Started
 
-- Use the DSI Data Science Framework to help you organize your information
+- Use the DSB Data Science Framework to help you organize your information
 - For any given step, consider the logic that links it to other steps and clearly desribe each assumption.
 - After writing a draft, leave it alone for at least 24 hours. What would you revise, reword, or take out?
 - Alternatively, read over a draft with a peer or in a group. What areas do they find confusing or unclear?
@@ -78,16 +78,14 @@ Format: Jupyter Notebook
 
 ## Project Feedback + Evaluation
 
-All projects have *requirements* that are clearly listed. These numbered requirements **must be completed** in order to "pass" the project. For each numbered item, you will be evaluated on a simple point scale of 0, 1, or 2. 
+You will be evaluated on the requirements above using the below rubric.
 
-> In special cases, instructors may decide to award an additional point if a submission surpasses expectations or completes bonus objectives. 
-
-Score | Expectations
-:--- | :---
-**0** | _Incomplete._
-**1** | _Does not meet expectations._
-**2** | _Meets all expectations._
-**3** | _Bonus: Surpasses expectations; amazing!_
+#### RUBRIC
+| Score | Interpretation |
+| --- | --- |
+| **0** | *Project fails to meet the minimum requirements for this item.* |
+| **1** | *Project meets the minimum requirements for this item, but falls significantly short of portfolio-ready expectations.* |
+| **2** | *Project exceeds the minimum requirements for this item, but falls short of portfolio-ready expectations.* |
+| **3** | *Project meets or exceeds portfolio-ready expectations; demonstrates a thorough understanding of every outlined consideration.* |
 
 [Attached here is a complete rubric for this project.](./capstone-part-04-rubric.md)
-
