@@ -27,7 +27,7 @@ Acceptable performance for these standards is based on how well you've performed
 
 #### REQUIRED
 
-1. Host a 20-minute well-rehearsed presentation of your project for your audience.
+1. Host a 15-minute well-rehearsed presentation of your project for your audience.
    - Define technical terms and any basic data science concepts that inform your approach.
    - Don't just deliver the information; tell a story about the problem and solution.
 
