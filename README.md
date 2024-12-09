@@ -1,9 +1,6 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Data Science: Capstone Project
 
-The Capstone Project is divided into 5 deliverables, each building on top of skills learned previously to scaffold students' learning over the entire course. Project deliverables include objectives, requirements, rubrics, and suggested resources - all of which tie into the overall competencies for this course.
-
-> See the [feedback guidelines](./instructor-facing-feedback-guide.md) to read more about how we provide feedback to students.
-
+The Capstone Project is divided into 5 deliverables, each building on top of skills learned previously to scaffold your learning over the entire course. Project deliverables include objectives, requirements, rubrics, and suggested resources - all of which tie into the overall competencies for this course.
 
 ### **[Capstone, Part 1: Pitch + Problem Statement](./part-01/capstone-part-01.md)**
 
@@ -38,7 +35,7 @@ Share your technical findings with your fellow data scientists. Explain your goa
 
 ### **[Capstone, Part 5: Presentation + Non-Technical Summary](./part-05/capstone-part-05.md)**
 
-Take your findings and share a 10 minute presentation that delivers the most important insights from your project to a non-technical audience. Tell us the most interesting story about your data. Break down your process for a novice audience. Make sure to include compelling visuals. Time is short, so be sure to practice and include only the most relevant components of your project.
+Take your findings and share a 15-minute, well-rehearsed presentation that delivers the most important insights from your project. Tell us the most interesting story about your data. Break down your process for a novice audience. Make sure to include compelling visuals. Time is short, so be sure to practice and include only the most relevant components of your project.
 
 - **Requirements**: Convey your goals, limits/assumptions, methods and their justification, findings, and conclusions. Define technical terms. Include graphics and visualizations. 
-- **Format:** Interactive graphic presentation, website, or slide deck.
+- **Format:** Public presentation of 13-17 minutes, plus 5 minutes of questions. Presentation should include interactive graphics, website, and/or slide deck.
