@@ -7,6 +7,7 @@ The Capstone Project is divided into 5 deliverables, each building on top of ski
 Pitch us on potential ideas for a data-driven project. Think of topics you’re passionate about, knowledge you’re familiar with, or problems relevant to to industries you’d like to work with. What questions do you want to answer?
 - **Requirements:** Lightning talk with 2-3 topics, including a problem statement, potential audience, goals, and success metrics, as well as possible data sources for each. Remember, if you can’t find data, you can’t do your project.
 - **Format:** Slide deck
+- Deadline: Thursday, December 19.
 
 
 ### **[Capstone, Part 2: Dataset + Data Collection](./part-02/capstone-part-02.md)**
@@ -15,6 +16,7 @@ Use your newfound skills to source and collect the relevant data for your projec
 
 - **Requirements**: Source and format the data for your project. Perform preliminary data munging and cleaning of the data relevant to your project goals.  Describe your data keeping the intended audience of your final report in mind.
 - **Format:** Table, file, or database with relevant text file or notebook description.
+- Deadline: Monday, January 6.
 
 
 ### **[Capstone, Part 3: EDA + Preliminary Analysis](./part-03/capstone-part-03.md)**
@@ -23,6 +25,7 @@ Begin quantitatively describing and visualizing your data. With rich datasets, E
 
 - **Requirements**: Perform initial descriptive and visual analysis of your data. Identify outliers, summarize risks and limitations, and describe how your EDA will inform your modeling decisions.
 - **Format:** Jupyter Notebook 
+- Deadline: Wednesday, January 15.
 
 
 ### **[Capstone, Part 4: Findings + Technical Report](./part-04/capstone-part-04.md)**
@@ -30,7 +33,8 @@ Begin quantitatively describing and visualizing your data. With rich datasets, E
 Share your technical findings with your fellow data scientists. Explain your goals, describe modeling choices, evaluate model performance, and discuss results. Data science reporting is technical, but don’t forget that you should tell a compelling story about your data.
 
 - **Requirements**: Summarize your goals and metrics for success, variables of interest, and removal of any outliers or data imputation. Your process description should be concise and relevant to your goals. Summarize statistical analysis, including model selection,  implementation, evaluation, and inference. Be convincing – justify all important decisions! Clearly label plots and visualizations. Include an Executive Summary.
-- **Format:** Jupyter Notebook 
+- **Format:** Jupyter Notebook
+- Deadline: Tuesday, January 21.
 
 
 ### **[Capstone, Part 5: Presentation + Non-Technical Summary](./part-05/capstone-part-05.md)**
@@ -39,3 +43,4 @@ Take your findings and share a 15-minute, well-rehearsed presentation that deliv
 
 - **Requirements**: Convey your goals, limits/assumptions, methods and their justification, findings, and conclusions. Define technical terms. Include graphics and visualizations. 
 - **Format:** Public presentation of 13-17 minutes, plus 5 minutes of questions. Presentation should include interactive graphics, website, and/or slide deck.
+- Deadline: Friday, January 24
