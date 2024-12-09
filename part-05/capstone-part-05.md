@@ -2,11 +2,11 @@
 
 ## Overview
 
-Whether during an interview or as part of a job, you will frequently have to present your findings to business partners and other interested parties - many of whom won't know anything about data science! 
+Whether during an interview or as part of a job, you will frequently have to present your findings to business partners and other interested parties - many of whom won't know anything about data science!
 
-That's why for Part 5, you'll create a 5-10 minute presentation that delivers the most important insights from your project to a lay audience. You've already done the analytical work; now it's time to explain your findings to the public.
+That's why for Part 5, you'll create a 15 minute presentation that delivers the most important insights from your project to an audience. You've already done the analytical work; now it's time to explain your findings to the public.
 
-Take your findings and share the most important insights from your project to a non-technical audience. Tell us the most interesting story about your data. Break down your process for a novice audience. Make sure to include compelling visuals. Time is short, so be sure to practice - and include only the most relevant components of your project.
+Take your findings and share the most important insights from your project. Be prepared to translate things for both non-technical and technical people. Tell us the most interesting story about your data. Break down your process for a novice audience. Make sure to include compelling visuals. Time is short, so be sure to practice - and **include only the most relevant components of your project**.
 
 Finally, be prepared to answer questions and explain your choices to an inquisitive audience!
 
@@ -14,14 +14,14 @@ Finally, be prepared to answer questions and explain your choices to an inquisit
 
 ---
 
-## REQUIREMENTS
+#### REQUIRED
 
-1. Host a 5-10 minute well-rehearsed presentation of your project for a non-technical audience.
-   - Define technical terms and any basic data science concepts that inform your approach
-   - Don't just deliver the information; tell a story about the problem and solution
+1. Host a 15-minute well-rehearsed presentation of your project for your audience.
+   - Define technical terms and any basic data science concepts that inform your approach.
+   - Don't just deliver the information; tell a story about the problem and solution.
 
-2. Prepare polished visuals or a publicly-suitable slide deck to guide your presentation. 
-   - Include graphs and/or visualizations
+2. Prepare polished visuals and a publicly-suitable slide deck to guide your presentation. 
+   - Include graphs and/or visualizations.
 
 3. Make sure you cover the following areas:
    - Goals
@@ -33,7 +33,7 @@ Finally, be prepared to answer questions and explain your choices to an inquisit
    - Risks/Limitations
    - Impact, next steps, conclusions
    
-4. Successfully answer questions about your project from your audience.
+4. Successfully answer questions about your project from, and for, your audience.
 
 #### BONUS
 
@@ -44,12 +44,11 @@ Finally, be prepared to answer questions and explain your choices to an inquisit
 6. Create a publicly hosted interactive visualization that your audience can use to further access and explore your data and findings.
    - Bonus points for embedding this into your blog post tutorial!
 
----
 
 ## Deliverable Format & Submission
 
 - Format: Interactive graphic presentation, website, or slide deck.
-- Public presentation of at least 5-10 minutes, with another 5 minutes of questions.
+- Public presentation of 13-17 minutes, with another 5 minutes of questions.
 
 ---
 
@@ -65,7 +64,7 @@ Finally, be prepared to answer questions and explain your choices to an inquisit
 
 ## Useful Resources
 
-- [Best Practices for Visualization ](https://drive.google.com/file/d/0Bx2SHQGVqWasWUpNX28yMTVuS1U/view?usp=sharing)
+- [Best Practices for Visualization](https://drive.google.com/file/d/0Bx2SHQGVqWasWUpNX28yMTVuS1U/view?usp=sharing)
 - [Importance of Storytelling w Data - Tableau Whitepaper](https://drive.google.com/file/d/0Bx2SHQGVqWasTmhYM1FHX3JfNEU/view?usp=sharing)
 - [Sample PT Data Science Projects from other GA students](https://gallery.generalassemb.ly/DS?metro=)
 
@@ -73,15 +72,14 @@ Finally, be prepared to answer questions and explain your choices to an inquisit
 
 ## Project Feedback + Evaluation
 
-All projects have *requirements* that are clearly listed. These numbered requirements **must be completed** in order to "pass" the project. For each numbered item, you will be evaluated on a simple point scale of 0, 1, or 2. 
+You will be evaluated on the requirements above using the below rubric.
 
-> In special cases, instructors may decide to award an additional point if a submission surpasses expectations or completes bonus objectives. 
-
-Score | Expectations
-:--- | :---
-**0** | _Incomplete._
-**1** | _Does not meet expectations._
-**2** | _Meets all expectations._
-**3** | _Bonus: Surpasses expectations; amazing!_
+#### RUBRIC
+| Score | Interpretation |
+| --- | --- |
+| **0** | *Project fails to meet the minimum requirements for this item.* |
+| **1** | *Project meets the minimum requirements for this item, but falls significantly short of portfolio-ready expectations.* |
+| **2** | *Project exceeds the minimum requirements for this item, but falls short of portfolio-ready expectations.* |
+| **3** | *Project meets or exceeds portfolio-ready expectations; demonstrates a thorough understanding of every outlined consideration.* |
 
 [Attached here is a complete rubric for this project.](./capstone-part-05-rubric.md)
