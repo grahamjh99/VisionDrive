@@ -17,7 +17,7 @@
 
 
 ## Data Dictionary
-The data was collected from the Udacity open source self driving car [github](https://github.com/udacity/self-driving-car/tree/master/datasets/CH2). The dataset is measured down to the 7th of a nanosecond, which was rounded to the 5th of a nanosecond to better match up the image data to the measured data.  
+The data was collected from the Udacity open source self driving car [github](https://github.com/udacity/self-driving-car/tree/master/datasets/CH2). 
 
 Vehicle Braking Infoormation
 
