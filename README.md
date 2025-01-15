@@ -17,9 +17,18 @@
 
 
 ## Data Dictionary
-The data was collected from the Udacity open source self driving car [github](https://github.com/udacity/self-driving-car/tree/master/datasets/CH2). 
+The data was collected from the Udacity open source self driving car [github](https://github.com/udacity/self-driving-car/tree/master/datasets/CH2).
 
-Vehicle Braking Infoormation
+Fix Information
+
+| Information | Data Type | Description | Notes |
+|---|---|---|---|
+|`Time`|`float`|Time point the data was collected|Rounded to the fourth decimal place, which loses some data but allows the images to be matched to the data.|
+|`latitude`|`float`|Represents the north-south position on the Earth's surface, ranging from -90° at the South Pole to +90° at the North Pole.|Positive values mean Northern Hemisphere.|
+|`longitude`|`float`|Represents the east-west position, with values ranging from -180° to +180°|Positive values indicate locations east of the Prime Meridian.|
+|`altitude`|`float`|The height above sea level (in meters).|---|
+
+Vehicle Braking Information
 
 | Information | Data Type | Description | Notes |
 |---|---|---|---|
