@@ -64,6 +64,7 @@ Internal Measurement Unit (IMU) Information
 |`orientation_x`|`float`|The vehicles position in the `x` direction in 3D space in quaternion.|Defines how the vehicle is oriented relative to a fixed coordinate frame.|
 |`orientation_y`|`float`|The vehicles position in the `y` direction in 3D space in quaternion.|Defines how the vehicle is oriented relative to a fixed coordinate frame.|
 |`orientation_z`|`float`|The vehicles position in the `z` direction in 3D space in quaternion.|Defines how the vehicle is oriented relative to a fixed coordinate frame.|
+|`orientation_w`|`float`|The scalar part of the quaternion used to encode the vehicles rotation in 3D space||
 |`orientation_covariance_0-8`|`float`|Form a 3x3 covariance matrix that describes the uncertainty in the orientation measurements.|Lower values indicate higher confidence.|
 |`angular_velocity_x`|`float`|The angular velocity of the vehicle around the `x` axis measured in radians per second.|These values are all `0` because a car does not rotate unless there is a crash and it tumbles.|
 |`angular_velocity_y`|`float`|The angular velocity of the vehicle around the `y` axis measured in radians per second.|These values are all `0` because a car does not rotate unless there is a crash and it tumbles.|
@@ -83,13 +84,13 @@ Internal Measurement Unit (IMU) Information
 | --- | --- | --- |
 | `numpy` || Ease of basic aggregate operations on data.|
 | `pandas` || Read our data into a DataFrame, clean it, engineer new features, and write it out to submission files.|
-| `matplotlib` | `pyplot`| Basic plotting functionality.|
-| `seaborn` || More control over plots.|
 | `sklearn` | | |
-|  | `pipeline`| `Pipeline` to set up a pipeline for models.|
-|  | `decomposition`| `PCA` to reduce dimensionality of the data.|
+|  | `model_selection`| `train_test_split` for splitnting the data to test models on unseen data.|
 | `os` | | Access operating level commands within python.|
 | `random` | | To generate random seeds for easier analysis of models.|
+| `gc` |  | To recover RAM used to save variables. |
+| `joblib` | | `load` to load in saved variables.|
+| | | `dump` to save variables for later use.|
 
 ## Executive Summary
 
