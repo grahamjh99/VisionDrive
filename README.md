@@ -14,19 +14,13 @@
     5) [Next Steps](#Next-Steps)
 
 ## Overview
+Self-driving initiatives are transforming the transportation industry by developing autonomous vehicles that can navigate and make decisions without human intervention. These systems rely on a combination of sensors (like cameras, radar, and LiDAR) and advanced machine learning algorithms to interpret real-time data, understand the environment, and safely control vehicle movement. Image-based models are a critical component, leveraging deep learning techniques to process visual information, such as road signs, obstacles, and traffic patterns, enabling the vehicle to act accordingly. With ongoing advancements, these technologies are aiming to improve road safety, reduce traffic congestion, and make transportation more efficient and accessible.
 
+A Convolution Neural Network was employed to analyze images taken from the [Udacity self drive car dataset](https://github.com/udacity/self-driving-car/tree/master/datasets/CH2) in order to determine outputs in different driving scenarios such as speed, steering wheel angle, and braking. This would allow for a base starting point for companies that aspire to build self drive cars to reduce training time and help with inital image recognition.
 
 ## Data Dictionary
-The data was collected from the Udacity open source self driving car [github](https://github.com/udacity/self-driving-car/tree/master/datasets/CH2).
+The data was collected from the Udacity open source self driving car [github](https://github.com/udacity/self-driving-car).
 
-Fix Information
-
-| Information | Data Type | Description | Notes |
-|---|---|---|---|
-|`Time`|`float`|Time point the data was collected|Rounded to the fourth decimal place, which loses some data but allows the images to be matched to the data.|
-|`latitude`|`float`|Represents the north-south position on the Earth's surface, ranging from -90° at the South Pole to +90° at the North Pole.|Positive values mean Northern Hemisphere.|
-|`longitude`|`float`|Represents the east-west position, with values ranging from -180° to +180°|Positive values indicate locations east of the Prime Meridian.|
-|`altitude`|`float`|The height above sea level (in meters).|---|
 
 Vehicle Braking Information
 
@@ -34,26 +28,26 @@ Vehicle Braking Information
 |---|---|---|---|
 |`Time`|`float`|Time point the data was collected|Rounded to the fourth decimal place, which loses some data but allows the images to be matched to the data.|
 |`brake_torque_request`|`float`|Amount of braking force the car system intends to supply.|This may be dropped later|
-|`brake_torque_actual`|`float`|The real braking force applied by the vehicle.|---|
-|`wheel_torque_actual`|`float`|The rotational force at the wheels that results from various inputs, such as braking, acceleration, or other mechanical forces.|---|
-|`accel_over_ground`|`float`|How fast the vehicle is changing its speed in the horizontal direction|---|
+|`brake_torque_actual`|`float`|The real braking force applied by the vehicle.||
+|`wheel_torque_actual`|`float`|The rotational force at the wheels that results from various inputs, such as braking, acceleration, or other mechanical forces.||
+|`accel_over_ground`|`float`|How fast the vehicle is changing its speed in the horizontal direction||
 
 Vehicle Throttle Information
 
 | Information | Data Type | Description | Notes |
 |---|---|---|---|
 |`Time`|`float`|Time point the data was collected|Rounded to the fourth decimal place, which loses some data but allows the images to be matched to the data.|
-|`throttle_pc`|`float`|How much the accelerator pedal is being pressed in percent.|---|
-|`throttle_rate`|`float`|The rate in precent that the throttle position is changing.|---|
-|`engine_rpm`|`float`|The speed at which the engine's crankshaft is rotating.|---|
+|`throttle_pc`|`float`|How much the accelerator pedal is being pressed in percent.||
+|`throttle_rate`|`float`|The rate in precent that the throttle position is changing.||
+|`engine_rpm`|`float`|The speed at which the engine's crankshaft is rotating.||
 
 Vehicle Steering Information
 
 | Information | Data Type | Description | Notes |
 |---|---|---|---|
 |`Time`|`float`|Time point the data was collected|Rounded to the fourth decimal place, which loses some data but allows the images to be matched to the data.|
-|`steering_wheel_angle`|`float`|The angle at which steering wheel is turned.|---|
-|`steering_wheel_torque`|`float`|The amount of force being applied to turn the steering wheel.|---|
+|`steering_wheel_angle`|`float`|The angle at which steering wheel is turned.||
+|`steering_wheel_torque`|`float`|The amount of force being applied to turn the steering wheel.||
 |`speed`|`float`|The vechile's speed in meters per second.|This was manipulated to kilometers per hour.|
 
 Internal Measurement Unit (IMU) Information
@@ -78,7 +72,7 @@ Internal Measurement Unit (IMU) Information
 ## Requirements
 
 ### Hardware
-
+The Convolution Neural Network models are extremely memory intesive due in part to the large amount of images being processed. It is recommended that to repeat this work the user has at minimum 80 Gb of RAM. 
 ### Software
 | Library | Module | Purpose |
 | --- | --- | --- |
@@ -111,10 +105,14 @@ Internal Measurement Unit (IMU) Information
 ## Executive Summary
 
 ### Purpose
-
+To take in only image data and have the model predict the state of the car and any inputs from the driver. The model should also be able to understand spacing between cars and the lines on the road for companies to use this as a starting point to train their models. To do this a Convolution Neural Network was employed to analyze the image data. 
 
 ### Data Handling
+There were few nulls within the data once it was read in from the ROS bag files. The nulls that were present were usually the entire column that could not be read in. The column that was not able to be read ion and contained all null values was the column labeled `frame_id` and was dropped from all used datasets. 
 
+When read in the dataset contained 5 different rides each with 36 csvs that contained varying amounts of information. The rides themselves were of different lengths and thus contained varying amounts of image data, when merged together there were about 33,000 images. The infromation used to train the models were in the imu-data, vehicle-brake_info_report, vehicle-steering_report, and vehicle-throttle_info_report csvs.
+
+Each dataset contained many features that were not used in the models. These features that were used are outlined above. Each dataset was used to create a single model that would predict the information within for example, a steering model was made that predicted the steering wheel angle, the torque applied to the steering wheel at a given time, and the speed of the car. The `Time` column was dropped for all models once the image data was associated with the corresponding information and all the datasets were merged in trip order.
 
 ### Analysis
 
