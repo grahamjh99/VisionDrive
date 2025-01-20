@@ -91,6 +91,22 @@ Internal Measurement Unit (IMU) Information
 | `gc` |  | To recover RAM used to save variables. |
 | `joblib` | | `load` to load in saved variables.|
 | | | `dump` to save variables for later use.|
+| `PIL` |  | `Image` Python Imaging Library to work with images.|
+| `gc` | | To reclaim memory no longer in use by objects. |
+| `tensorflow` | `keras.models` | `Sequential` allows for the building of nueral networks layer-by-layer in a sequential order. |
+| | `keras.layers` | `Input` specifies the shape an data type of the input data.|
+|  |  | `Conv2D` applies filters to input data to extract spatial features. |
+|  |  | `MaxPooling2D` pooling layer to reduce the spatial dimension of the input. |
+|  |  | `Flatten` takes multi-dimensional input into a 1D vector. |
+|  | | `Dense` a fully connected layer in a nerual network where each neureon in the layer is connected to every neuron in the previous layer.|
+|  |  | `Dropout` randomly sets a fraction of the neurons to zero during training to help prevent overfitting.|
+|  |  | `BatchNormalization` stabilizes training and improves performance. |
+|  | `keras.optimizers` | `Adam` gradient decent algothrim optimized for large datasets.|
+|  | `keras.callbacks` | `EarlyStopping` stops the training process when a given metric is met to prevent overfitting and unnecessary training time.|
+| `io` |  | For efficient data processing when reading in images.|
+| `bagpy` |  | Used to read and extract information from `.bag` files. |
+|  | | `bagreader` opens ROS bag files.|
+| `rosbag` |  | Replays the recorded messages in ROS bag files for analysis or conversion to other formats. |
 
 ## Executive Summary
 
