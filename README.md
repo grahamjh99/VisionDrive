@@ -21,15 +21,31 @@ A Convolution Neural Network was employed to analyze images taken from the [Udac
 ## Data Dictionary
 The data was collected from the Udacity open source self driving car [github](https://github.com/udacity/self-driving-car).
 
+Vehicle Wheel Speed Report Information
+
+| Information | Data Type | Description | Notes |
+|---|---|---|---|
+|`front_left_wheel`|`float`|Front left wheel speed in km/h|Renamed from `front_left`|
+|`front_right_wheel`|`float`|Front right wheel speed in km/h|Renamed from `front_right`|
+|`rear_left_wheel`|`float`|Rear left wheel speed in km/h|Renamed from `rear_left`|
+|`rear_right_wheel`|`float`|Rear right wheel speed in km/h|Renamed from `rear_right`|
+
+Vehicle Gear Report Information
+
+| Information | Data Type | Description | Notes |
+|---|---|---|---|
+|`gear_state`|`float`|The current gear state of the vehicle.|Renamed from `state.gear`|
+|`gear_cmd`|`float`|The commanded gear state.|Renamed from `cmd.gear`|
+
 Vehicle Braking Report Information
 
 | Information | Data Type | Description | Notes |
 |---|---|---|---|
-|`brake_lights_input`|`int`|The raw signal from the brake light activation sensor.|Renamed from `boo_input`|
-|`brake_lights_output`|`int`|The actual state of the brake light.|Renamed from `boo_output`|
+|`brake_lights_input`|`int`|The raw signal from the brake light activation sensor.|Renamed from `boo_input`. Changed from a bool value.|
+|`brake_lights_output`|`int`|The actual state of the brake light.|Renamed from `boo_output`. Changed from a bool value.|
 |`brake_pedal_input`|`float`|The raw signal from the brake pedal sensor.|Renamed from `pedal_input`|
 |`brake_pedal_output`|`float`|The actual brake pedal position being applied.|Renamed from `pedal_output`|
-|`brake_enabled`|`int`|Indicates whether the braking system is enabled.|Renamed from `enabled`|
+|`brake_enabled`|`int`|Indicates whether the braking system is enabled.|Renamed from `enabled`. Changed from a bool value.|
 |`brake_pedal_cmd`|`float`|The commanded brake pedal position.|Renamed from `pedal_cmd`|
 |`torque_input`|`float`|The torque requested by the driver through the brake pedal.||
 |`torque_cmd`|`float`|The commanded brake torque.||
@@ -44,26 +60,25 @@ Vehicle Braking Info Report Information
 |`brake_torque_actual`|`float`|The real braking force applied by the vehicle.||
 |`wheel_torque_actual`|`float`|The rotational force at the wheels that results from various inputs, such as braking, acceleration, or other mechanical forces.||
 |`accel_over_ground`|`float`|How fast the vehicle is changing its speed in the horizontal direction.||
-|`hill_start_assist_system_status`|`int`|Status of the hill assist sytstem to prevent the car from rolling down hills.|Renamed from `hsa.status`|
-|`hill_start_assist_mode`|`int`| Indicates if the hill start assist is engaged or not.|Renamed from `hsa.mode`|
-|`parking_brake_enabled`|`int`|Status of the parking brake if it is engaged or not.|Renamed from `parking_brake.status`|
-|`stationary`|`int`|If the car is moving or not.||
-|`abs_active`|`int`|If the advanced braking system is actively regulating braking pressure to prevent wheel lockup.||
-|`abs_enabled`|`int`|If the advanced braking system is enabled.||
-|`stab_active`|`int`|Indicating whether the Electronic Stability Control (ESC) system is actively intervening to stabilize the vehicle.||
-|`stab_enabled`|`int`|Indicates whether the Electronic Stability Control (ESC) system is enabled.||
-|`trac_active`|`int`|Indicating whether the Traction Control System (TCS) is actively intervening to manage wheel slip.||
-|`trac_enabled`|`int`|Indicates whether the Traction Control System (TCS) is enabled.||
+|`hill_start_assist_system_status`|`int`|Status of the hill assist sytstem to prevent the car from rolling down hills.|Renamed from `hsa.status`.|
+|`hill_start_assist_mode`|`int`| Indicates if the hill start assist is engaged or not.|Renamed from `hsa.mode`.|
+|`parking_brake_enabled`|`int`|Status of the parking brake if it is engaged or not.|Renamed from `parking_brake.status`.|
+|`stationary`|`int`|If the car is moving or not.|Changed from a bool value.|
+|`abs_active`|`int`|If the advanced braking system is actively regulating braking pressure to prevent wheel lockup.|Changed from a bool value.|
+|`abs_enabled`|`int`|If the advanced braking system is enabled.|Changed from a bool value.|
+|`stab_active`|`int`|Indicating whether the Electronic Stability Control (ESC) system is actively intervening to stabilize the vehicle.|Changed from a bool value.|
+|`stab_enabled`|`int`|Indicates whether the Electronic Stability Control (ESC) system is enabled.|Changed from a bool value.|
+|`trac_active`|`int`|Indicating whether the Traction Control System (TCS) is actively intervening to manage wheel slip.|Changed from a bool value.|
+|`trac_enabled`|`int`|Indicates whether the Traction Control System (TCS) is enabled.|Changed from a bool value.|
 
 Vehicle Throttle Info Information
 
 | Information | Data Type | Description | Notes |
 |---|---|---|---|
-|`throttle_enabled`|---|---|Renamed from `enabled`|
-|---|---|---|---|
-|---|---|---|---|
-|---|---|---|---|
-|---|---|---|---|
+|`throttle_enabled`|`int`|Indicates whether the throttle control system is enabled.|Renamed from `enabled`. Changed from a bool value.|
+|`throttle_pedal_input`|`float`|The raw input from the accelerator pedal sensor.|Renamed from `pedal_input`|
+|`throttle_pedal_cmd`|`float`|The throttle command requested by the driver or an automated system.|Renamed from `pedal_cmd`|
+|`throttle_pedal_output`|`float`|The actual throttle output being sent to the engine or motor.|Renamed from `pedal_output`|
 
 
 Vehicle Throttle Info Report Information
@@ -83,7 +98,7 @@ Vehicle Steering Report Information
 |`steering_wheel_angle`|`float`|The angle at which steering wheel is turned.||
 |`steering_wheel_torque`|`float`|The amount of force being applied to turn the steering wheel.||
 |`speed`|`float`|The vechile's speed in meters per second.|This was manipulated to kilometers per hour.|
-|`steering_enabled`|`int`|A binary indicator (1 or 0) showing whether the steering system is currently active.|Renamed from `enabled`|
+|`steering_enabled`|`int`|A binary indicator (1 or 0) showing whether the steering system is currently active.|Renamed from `enabled`. Changed from a bool value.|
 
 Internal Measurement Unit (IMU) Information
 
@@ -107,7 +122,7 @@ Internal Measurement Unit (IMU) Information
 ## Requirements
 
 ### Hardware
-The Convolution Neural Network (CNN) model is extremely memory intesive due in part to the large amount of images being processed. It is recommended that to repeat this work the user has at minimum 64 Gb of RAM. Variables were saved for training the model to speed up training different itterations of the model. These files took up about 57 Gb of space in total while the data for all the trips was about 60 Gb including the images in total. 
+The Convolution Neural Network (CNN) model is extremely memory intesive due in part to the large amount of images being processed. It is recommended that to repeat this work the user has at minimum 85 GB of RAM. Variables were saved for training the model to speed up training different itterations of the model. These files took up about 57 GB of space in total while the data for all the trips was about 60 GB including the images in total. 
 ### Software
 | Library | Module | Purpose |
 | --- | --- | --- |
@@ -150,12 +165,15 @@ There were few nulls within the data once it was read in from the ROS bag files.
 
 When read in the dataset contained 5 different rides each with 36 csvs that contained varying amounts of information. The rides themselves were of different lengths and thus contained varying amounts of image data, when merged together there were about 33,000 images. The infromation used to train the models were in the imu-data, vehicle-brake_info_report, vehicle-steering_report, vehicle-throttle_info_report, vehicle-throttle_report, vehicle-gear_report, vehicle-brake_report, and vehicle-wheel_speed_report csvs.
 
-Each dataset contained many features that were not used in the models. The features that were used are outlined above. The `Time` column was dropped for all models once the image data was associated with the corresponding information and all the datasets were merged in chronological order (trips were in time order and inputs for the trips were in time order).
+Each dataset contained many features that were not used in the models. The features that were used are outlined above. The `Time` column was dropped from all models once the image data was associated with the corresponding information and all the datasets were merged in chronological order (trips were in time order and inputs for the trips were in time order).
+
+Some feature names were changed so that there would be no conflicts when merging, since the names were the same in some csvs, and for clarity in the predictions analysis. These changes are documented above in the data dictionary. Some values were changed to integars from boolian values and those changes are also documented in the data dictionary above. Once the images were attachted appropriately to each dataset the csvs were outer merged and any resulting null values were dropped. These null values corresponded to information that contained no images or in some cases only a single image. Those that contained single images were the minority with the majority being inputs that contained no images. This resulted in a single csv with 74 different features, about 33,000 rows and 3 features that just contained the image paths for the different cameras. 
 
 ### Analysis
-
+Initially the model was intended to be able to drive the car. This idea was set to the side due to the amount of computing power need to run the model and the amount of time needed to run the model being large constraints. Instead a Convolutional Neural Network (CNN) was designed to predict driving outputs based on the image presented. This reulted in a model with an MAE of about 30 and an MSE of about 36000. Showcasing that the model is able to fairly accurately predict desired driving outputs from just image data.
 
 ### Findings and Implications
-
+Through looking at the predicted outputs for random images I found that the model is able to accurately predict what a driver would do in the situation in the image but the reactions are over pronounced. When the model sees brake lights for example it has correctly determined that cars are stopping but the model brakes too hard for what you would expect from a normal driver. The model also seems to overcompensate with trees or obsticles it sees on the sides of roads as it begins to brake based on the outputs. Spatial data would most likely help correct this issue.
 
 ### Next Steps
+Future work would consist of setting up a virtual environment to test if the model is able to drive the car and take inputs from the camera on the car. Other considerations for model improvement would be to take in the sensor and lidar data into the model so that the model can gain a sense of distance. The model could also be trained on the hold out trip which was labeled HMB_3 in the Udacity github.
