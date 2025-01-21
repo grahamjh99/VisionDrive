@@ -2,6 +2,8 @@
 
 # Capstone: Designing a Basic Self Drive Vehicle
 
+*Graham Haun*
+
 ## Table of Contents
 1) [Overview](#Overview) 
 2) [Data Dictionary](<#Data Dictionary>)
@@ -21,7 +23,7 @@ A Convolution Neural Network was employed to analyze images taken from the [Udac
 ## Data Dictionary
 The data was collected from the Udacity open source self driving car [github](https://github.com/udacity/self-driving-car).
 
-Vehicle Wheel Speed Report Information
+**Vehicle Wheel Speed Report Information**
 
 | Information | Data Type | Description | Notes |
 |---|---|---|---|
@@ -30,14 +32,14 @@ Vehicle Wheel Speed Report Information
 |`rear_left_wheel`|`float`|Rear left wheel speed in km/h|Renamed from `rear_left`|
 |`rear_right_wheel`|`float`|Rear right wheel speed in km/h|Renamed from `rear_right`|
 
-Vehicle Gear Report Information
+**Vehicle Gear Report Information**
 
 | Information | Data Type | Description | Notes |
 |---|---|---|---|
 |`gear_state`|`float`|The current gear state of the vehicle.|Renamed from `state.gear`|
 |`gear_cmd`|`float`|The commanded gear state.|Renamed from `cmd.gear`|
 
-Vehicle Braking Report Information
+**Vehicle Braking Report Information**
 
 | Information | Data Type | Description | Notes |
 |---|---|---|---|
@@ -51,7 +53,7 @@ Vehicle Braking Report Information
 |`torque_cmd`|`float`|The commanded brake torque.||
 |`torque_output`|`float`|The actual brake torque being applied.||
 
-Vehicle Braking Info Report Information
+**Vehicle Braking Info Report Information**
 
 | Information | Data Type | Description | Notes |
 |---|---|---|---|
@@ -71,7 +73,7 @@ Vehicle Braking Info Report Information
 |`trac_active`|`int`|Indicating whether the Traction Control System (TCS) is actively intervening to manage wheel slip.|Changed from a bool value.|
 |`trac_enabled`|`int`|Indicates whether the Traction Control System (TCS) is enabled.|Changed from a bool value.|
 
-Vehicle Throttle Info Information
+**Vehicle Throttle Info Information**
 
 | Information | Data Type | Description | Notes |
 |---|---|---|---|
@@ -81,7 +83,7 @@ Vehicle Throttle Info Information
 |`throttle_pedal_output`|`float`|The actual throttle output being sent to the engine or motor.|Renamed from `pedal_output`|
 
 
-Vehicle Throttle Info Report Information
+**Vehicle Throttle Info Report Information**
 
 | Information | Data Type | Description | Notes |
 |---|---|---|---|
@@ -90,7 +92,7 @@ Vehicle Throttle Info Report Information
 |`throttle_rate`|`float`|The rate in precent that the throttle position is changing.||
 |`engine_rpm`|`float`|The speed at which the engine's crankshaft is rotating.||
 
-Vehicle Steering Report Information
+**Vehicle Steering Report Information**
 
 | Information | Data Type | Description | Notes |
 |---|---|---|---|
@@ -100,7 +102,7 @@ Vehicle Steering Report Information
 |`speed`|`float`|The vechile's speed in meters per second.|This was manipulated to kilometers per hour.|
 |`steering_enabled`|`int`|A binary indicator (1 or 0) showing whether the steering system is currently active.|Renamed from `enabled`. Changed from a bool value.|
 
-Internal Measurement Unit (IMU) Information
+**Internal Measurement Unit (IMU) Information**
 
 | Information | Data Type | Description | Notes |
 |---|---|---|---|
