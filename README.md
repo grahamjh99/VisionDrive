@@ -22,7 +22,7 @@ A Convolution Neural Network was employed to analyze images taken from the [Udac
 The data was collected from the Udacity open source self driving car [github](https://github.com/udacity/self-driving-car).
 
 
-Vehicle Braking Information
+Vehicle Braking Report Information
 
 | Information | Data Type | Description | Notes |
 |---|---|---|---|
@@ -30,7 +30,17 @@ Vehicle Braking Information
 |`brake_torque_request`|`float`|Amount of braking force the car system intends to supply.|This may be dropped later|
 |`brake_torque_actual`|`float`|The real braking force applied by the vehicle.||
 |`wheel_torque_actual`|`float`|The rotational force at the wheels that results from various inputs, such as braking, acceleration, or other mechanical forces.||
-|`accel_over_ground`|`float`|How fast the vehicle is changing its speed in the horizontal direction||
+|`accel_over_ground`|`float`|How fast the vehicle is changing its speed in the horizontal direction.||
+|`hill_start_assist_system_status`|`int`|Status of the hill assist sytstem to prevent the car from rolling down hills.|Renamed from `hsa.status`|
+|`hill_start_assist_mode`|`int`| Indicates if the hill start assist is engaged or not.|Renamed from `hsa.mode`|
+|`parking_brake_enabled`|`int`|Status of the parking brake if it is engaged or not.|Renamed from `parking_brake.status`|
+|`stationary`|`int`|If the car is moving or not.||
+|`abs_active`|`int`|If the advanced braking system is actively regulating braking pressure to prevent wheel lockup.||
+|`abs_enabled`|`int`|If the advanced braking system is enabled.||
+|`stab_active`|`int`|Indicating whether the Electronic Stability Control (ESC) system is actively intervening to stabilize the vehicle.||
+|`stab_enabled`|`int`|Indicates whether the Electronic Stability Control (ESC) system is enabled.||
+|`trac_active`|`int`|Indicating whether the Traction Control System (TCS) is actively intervening to manage wheel slip.||
+|`trac_enabled`|`int`|Indicates whether the Traction Control System (TCS) is enabled.||
 
 Vehicle Throttle Information
 
@@ -41,7 +51,7 @@ Vehicle Throttle Information
 |`throttle_rate`|`float`|The rate in precent that the throttle position is changing.||
 |`engine_rpm`|`float`|The speed at which the engine's crankshaft is rotating.||
 
-Vehicle Steering Information
+Vehicle Steering Report Information
 
 | Information | Data Type | Description | Notes |
 |---|---|---|---|
@@ -49,6 +59,7 @@ Vehicle Steering Information
 |`steering_wheel_angle`|`float`|The angle at which steering wheel is turned.||
 |`steering_wheel_torque`|`float`|The amount of force being applied to turn the steering wheel.||
 |`speed`|`float`|The vechile's speed in meters per second.|This was manipulated to kilometers per hour.|
+|`steering_enabled`|`int`|A binary indicator (1 or 0) showing whether the steering system is currently active.|Renamed from `enabled`|
 
 Internal Measurement Unit (IMU) Information
 
@@ -72,12 +83,13 @@ Internal Measurement Unit (IMU) Information
 ## Requirements
 
 ### Hardware
-The Convolution Neural Network models are extremely memory intesive due in part to the large amount of images being processed. It is recommended that to repeat this work the user has at minimum 80 Gb of RAM. 
+The Convolution Neural Network models are extremely memory intesive due in part to the large amount of images being processed. It is recommended that to repeat this work the user has at minimum 80 Gb of RAM. Variables were saved for training the model to save time. These files took up about 240 Gb of space in total while the data for all the trips was about 55 Gb including the images in total. 
 ### Software
 | Library | Module | Purpose |
 | --- | --- | --- |
 | `numpy` || Ease of basic aggregate operations on data.|
 | `pandas` || Read our data into a DataFrame, clean it, engineer new features, and write it out to submission files.|
+| `matplotlib` | `pyplot`| Basic plotting functionality.|
 | `sklearn` | | |
 |  | `model_selection`| `train_test_split` for splitnting the data to test models on unseen data.|
 | `os` | | Access operating level commands within python.|
@@ -88,6 +100,7 @@ The Convolution Neural Network models are extremely memory intesive due in part 
 | `PIL` |  | `Image` Python Imaging Library to work with images.|
 | `gc` | | To reclaim memory no longer in use by objects. |
 | `tensorflow` | `keras.models` | `Sequential` allows for the building of nueral networks layer-by-layer in a sequential order. |
+|  |  | `load_model` loads in saved models for inference or retraining.|
 | | `keras.layers` | `Input` specifies the shape an data type of the input data.|
 |  |  | `Conv2D` applies filters to input data to extract spatial features. |
 |  |  | `MaxPooling2D` pooling layer to reduce the spatial dimension of the input. |
@@ -98,9 +111,10 @@ The Convolution Neural Network models are extremely memory intesive due in part 
 |  | `keras.optimizers` | `Adam` gradient decent algothrim optimized for large datasets.|
 |  | `keras.callbacks` | `EarlyStopping` stops the training process when a given metric is met to prevent overfitting and unnecessary training time.|
 | `io` |  | For efficient data processing when reading in images.|
-| `bagpy` |  | Used to read and extract information from `.bag` files. |
+| `bagpy` |  | Used to read and extract information from bag files. |
 |  | | `bagreader` opens ROS bag files.|
 | `rosbag` |  | Replays the recorded messages in ROS bag files for analysis or conversion to other formats. |
+| `tqdm` | | `tqdm` track code progress visually with a loading bar.|
 
 ## Executive Summary
 
@@ -110,9 +124,9 @@ To take in only image data and have the model predict the state of the car and a
 ### Data Handling
 There were few nulls within the data once it was read in from the ROS bag files. The nulls that were present were usually the entire column that could not be read in. The column that was not able to be read ion and contained all null values was the column labeled `frame_id` and was dropped from all used datasets. 
 
-When read in the dataset contained 5 different rides each with 36 csvs that contained varying amounts of information. The rides themselves were of different lengths and thus contained varying amounts of image data, when merged together there were about 33,000 images. The infromation used to train the models were in the imu-data, vehicle-brake_info_report, vehicle-steering_report, and vehicle-throttle_info_report csvs.
+When read in the dataset contained 5 different rides each with 36 csvs that contained varying amounts of information. The rides themselves were of different lengths and thus contained varying amounts of image data, when merged together there were about 33,000 images. The infromation used to train the models were in the imu-data, vehicle-brake_info_report, vehicle-steering_report, vehicle-throttle_info_report, vehicle-throttle_report, vehicle-gear_report, vehicle-brake_report, and vehicle-wheel_speed_report csvs.
 
-Each dataset contained many features that were not used in the models. These features that were used are outlined above. Each dataset was used to create a single model that would predict the information within for example, a steering model was made that predicted the steering wheel angle, the torque applied to the steering wheel at a given time, and the speed of the car. The `Time` column was dropped for all models once the image data was associated with the corresponding information and all the datasets were merged in trip order.
+Each dataset contained many features that were not used in the models. The features that were used are outlined above. The `Time` column was dropped for all models once the image data was associated with the corresponding information and all the datasets were merged in chronological order (trips were in time order and inputs for the trips were in time order).
 
 ### Analysis
 
