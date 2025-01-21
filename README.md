@@ -21,8 +21,21 @@ A Convolution Neural Network was employed to analyze images taken from the [Udac
 ## Data Dictionary
 The data was collected from the Udacity open source self driving car [github](https://github.com/udacity/self-driving-car).
 
-
 Vehicle Braking Report Information
+
+| Information | Data Type | Description | Notes |
+|---|---|---|---|
+|`brake_lights_input`|`int`|The raw signal from the brake light activation sensor.|Renamed from `boo_input`|
+|`brake_lights_output`|`int`|The actual state of the brake light.|Renamed from `boo_output`|
+|`brake_pedal_input`|`float`|The raw signal from the brake pedal sensor.|Renamed from `pedal_input`|
+|`brake_pedal_output`|`float`|The actual brake pedal position being applied.|Renamed from `pedal_output`|
+|`brake_enabled`|`int`|Indicates whether the braking system is enabled.|Renamed from `enabled`|
+|`brake_pedal_cmd`|`float`|The commanded brake pedal position.|Renamed from `pedal_cmd`|
+|`torque_input`|`float`|The torque requested by the driver through the brake pedal.||
+|`torque_cmd`|`float`|The commanded brake torque.||
+|`torque_output`|`float`|The actual brake torque being applied.||
+
+Vehicle Braking Info Report Information
 
 | Information | Data Type | Description | Notes |
 |---|---|---|---|
@@ -42,7 +55,18 @@ Vehicle Braking Report Information
 |`trac_active`|`int`|Indicating whether the Traction Control System (TCS) is actively intervening to manage wheel slip.||
 |`trac_enabled`|`int`|Indicates whether the Traction Control System (TCS) is enabled.||
 
-Vehicle Throttle Information
+Vehicle Throttle Info Information
+
+| Information | Data Type | Description | Notes |
+|---|---|---|---|
+|`throttle_enabled`|---|---|Renamed from `enabled`|
+|---|---|---|---|
+|---|---|---|---|
+|---|---|---|---|
+|---|---|---|---|
+
+
+Vehicle Throttle Info Report Information
 
 | Information | Data Type | Description | Notes |
 |---|---|---|---|
@@ -83,7 +107,7 @@ Internal Measurement Unit (IMU) Information
 ## Requirements
 
 ### Hardware
-The Convolution Neural Network models are extremely memory intesive due in part to the large amount of images being processed. It is recommended that to repeat this work the user has at minimum 80 Gb of RAM. Variables were saved for training the model to save time. These files took up about 240 Gb of space in total while the data for all the trips was about 55 Gb including the images in total. 
+The Convolution Neural Network (CNN) model is extremely memory intesive due in part to the large amount of images being processed. It is recommended that to repeat this work the user has at minimum 64 Gb of RAM. Variables were saved for training the model to speed up training different itterations of the model. These files took up about 57 Gb of space in total while the data for all the trips was about 60 Gb including the images in total. 
 ### Software
 | Library | Module | Purpose |
 | --- | --- | --- |
