@@ -1,6 +1,6 @@
 <img src="http://imgur.com/1ZcRyrc.png" style="float: left; margin: 20px; height: 90px">
 
-# Capstone: A Simple Self Drive Model
+# Capstone: VisionDrive
 
 *Graham Haun*
 
